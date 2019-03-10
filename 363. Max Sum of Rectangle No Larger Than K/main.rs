@@ -16,11 +16,11 @@ impl Solution {
         let mut matrix_sum = matrix.clone();
         let (M, N) = (matrix_sum.len(), matrix_sum[0].len());
         matrix_sum[0][0] = matrix[0][0];
-        // å¤çç¬¬ä¸å
+        // 处理第一列
         for j in (1..M) {
             matrix_sum[j][0] = matrix_sum[j-1][0] + matrix[j][0];
         }
-        // å¤çç¬¬ä¸è¡
+        // 处理第一行
         for i in (1..N) {
             matrix_sum[0][i] = matrix_sum[0][i-1] + matrix[0][i];
         }

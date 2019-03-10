@@ -4,7 +4,8 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（35 个）：
+目前已解决的题目（36 个）：
+- [8. String to Integer (atoi)](https://github.com/netcan/Leetcode-Rust/tree/master/8.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number](https://github.com/netcan/Leetcode-Rust/tree/master/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)
 - [51. N-Queens](https://github.com/netcan/Leetcode-Rust/tree/master/51.%20N-Queens)
 - [52. N-Queens II](https://github.com/netcan/Leetcode-Rust/tree/master/52.%20N-Queens%20II)

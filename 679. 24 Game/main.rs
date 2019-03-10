@@ -8,7 +8,7 @@ impl Solution {
     pub fn judge_point24_(nums: Vec<f64>) -> bool {
         if nums.len() == 0 { return false; }
         if nums.len() == 1 && (nums[0] - 24.0).abs() < 1e-6 { return true; }
-        // éåº2ä¸ªæ°ï¼è¿è¡è¿ç®ï¼ç¶åæ¾ååè¡¨ä¸­
+        // 选出2个数，进行运算，然后放回列表中
         for i in 0..nums.len() {
             for j in 0..nums.len() {
                 if i == j {

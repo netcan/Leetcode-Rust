@@ -38,7 +38,7 @@ impl Solution {
             return;
         }
         for i in 0..n {
-            // å¯æ¾ç½®
+            // 可放置
             if Solution::check((depth, i), board) {
                 board[depth][i] = true;
                 Solution::total_n_queens_(depth + 1, board, solv);

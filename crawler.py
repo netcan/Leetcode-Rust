@@ -66,10 +66,10 @@ class Leetcode:
             requests.post(Leetcode.LEETCODE_GRAPHQL, headers=self.headers, data=data).json()['data']['submissionList']['submissions']
             if item['statusDisplay'].lower() == 'accepted']
 
-    def get_source(self, url):
+    def get_source(self, url): # /submissions/detail/14313499/
         req_url = self.LEETCODE_URL + url
         src = re.search('submissionCode: \'(.*)\',', requests.get(req_url, headers=self.headers).text).group(1)
-        return src.encode().decode('unicode-escape')
+        return src.encode('cp1252', 'backslashreplace').decode('unicode-escape')
 
     def output_source(self, lang='rust', lang_suffix='rs', max_threads=8):
         solved_list = self.get_solved_list()
