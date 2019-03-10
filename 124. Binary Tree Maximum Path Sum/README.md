@@ -1,9 +1,9 @@
 
-### Binary Tree Maximum Path Sum
+### Binary Tree Maximum Path Sum :star::star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)
 - 执行时间/Runtime: 8 ms 
 - 内存消耗/Mem Usage: 4.5 MB
-- 提交日期/Datime: 2019-03-09 23:40
+- 提交日期/Datetime: 2019-03-09 23:40
 
 ```rust
 use std::rc::Rc;

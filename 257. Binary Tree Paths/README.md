@@ -1,9 +1,9 @@
 
-### Binary Tree Paths
+### Binary Tree Paths :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/binary-tree-paths](https://leetcode-cn.com/problems/binary-tree-paths)
 - 执行时间/Runtime: 0 ms 
 - 内存消耗/Mem Usage: 2.5 MB
-- 提交日期/Datime: 2019-03-06 23:17
+- 提交日期/Datetime: 2019-03-06 23:17
 
 ```rust
 // Definition for a binary tree node.

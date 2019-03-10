@@ -1,9 +1,9 @@
 
-### Minimum Depth of Binary Tree
+### Minimum Depth of Binary Tree :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 3.2 MB
-- 提交日期/Datime: 2019-03-08 17:55
+- 提交日期/Datetime: 2019-03-08 17:55
 
 ```rust
 use std::rc::Rc;

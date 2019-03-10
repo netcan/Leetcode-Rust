@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 671.7 KB
-- 提交日期/Datime: 2019-02-18 18:00
+- 提交日期/Datetime: 2019-02-18 18:00
 
 ```rust
 use std::i32;

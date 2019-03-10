@@ -1,9 +1,9 @@
 
-### Find Median from Data Stream
+### Find Median from Data Stream :star::star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream)
 - 执行时间/Runtime: 2056 ms 
 - 内存消耗/Mem Usage: 9.5 MB
-- 提交日期/Datime: 2019-03-07 20:11
+- 提交日期/Datetime: 2019-03-07 20:11
 
 ```rust
 use std::collections::BTreeMap;

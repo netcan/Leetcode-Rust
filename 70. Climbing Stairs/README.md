@@ -1,9 +1,9 @@
 
-### Climbing Stairs
+### Climbing Stairs :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs)
 - 执行时间/Runtime: 0 ms 
 - 内存消耗/Mem Usage: 2.4 MB
-- 提交日期/Datime: 2019-03-05 19:27
+- 提交日期/Datetime: 2019-03-05 19:27
 
 ```rust
 impl Solution {

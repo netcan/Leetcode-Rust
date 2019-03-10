@@ -1,9 +1,9 @@
 
-### Letter Combinations of a Phone Number
+### Letter Combinations of a Phone Number :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)
 - 执行时间/Runtime: 0 ms 
 - 内存消耗/Mem Usage: 745.5 KB
-- 提交日期/Datime: 2019-02-19 19:37
+- 提交日期/Datetime: 2019-02-19 19:37
 
 ```rust
 impl Solution {

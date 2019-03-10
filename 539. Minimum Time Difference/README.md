@@ -1,9 +1,9 @@
 
-### Minimum Time Difference
+### Minimum Time Difference :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/minimum-time-difference](https://leetcode-cn.com/problems/minimum-time-difference)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 3.4 MB
-- 提交日期/Datime: 2019-03-07 18:50
+- 提交日期/Datetime: 2019-03-07 18:50
 
 ```rust
 use std::cmp::min;

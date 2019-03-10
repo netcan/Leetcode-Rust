@@ -1,9 +1,9 @@
 
-### Path Sum
+### Path Sum :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/path-sum](https://leetcode-cn.com/problems/path-sum)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 3.1 MB
-- 提交日期/Datime: 2019-03-10 00:06
+- 提交日期/Datetime: 2019-03-10 00:06
 
 ```rust
 use std::rc::Rc;

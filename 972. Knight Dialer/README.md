@@ -1,9 +1,9 @@
 
-### Knight Dialer
+### Knight Dialer :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/knight-dialer](https://leetcode-cn.com/problems/knight-dialer)
 - 执行时间/Runtime: 16 ms 
 - 内存消耗/Mem Usage: 2.3 MB
-- 提交日期/Datime: 2019-03-06 18:27
+- 提交日期/Datetime: 2019-03-06 18:27
 
 ```rust
 impl Solution {

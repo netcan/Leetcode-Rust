@@ -1,9 +1,9 @@
 
-### Assign Cookies
+### Assign Cookies :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/assign-cookies](https://leetcode-cn.com/problems/assign-cookies)
 - 执行时间/Runtime: 12 ms 
 - 内存消耗/Mem Usage: 3.1 MB
-- 提交日期/Datime: 2019-03-05 20:22
+- 提交日期/Datetime: 2019-03-05 20:22
 
 ```rust
 impl Solution {
