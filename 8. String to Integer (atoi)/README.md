@@ -3,9 +3,12 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 671.7 KB
-- 提交日期/Datetime: 2019-02-18 18:00
+- 通过日期/Accept Datetime: 2019-02-18 18:00
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::i32;
 impl Solution {
     pub fn my_atoi(str: String) -> i32 {
@@ -52,5 +55,6 @@ impl Solution {
         ret as i32
     }
 }
+
 
 ```

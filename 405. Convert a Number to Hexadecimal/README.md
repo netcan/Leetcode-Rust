@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)
 - 执行时间/Runtime: 0 ms 
 - 内存消耗/Mem Usage: 2.3 MB
-- 提交日期/Datetime: 2019-03-06 09:52
+- 通过日期/Accept Datetime: 2019-03-06 09:52
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/24-game](https://leetcode-cn.com/problems/24-game)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 2.3 MB
-- 提交日期/Datetime: 2019-03-09 18:07
+- 通过日期/Accept Datetime: 2019-03-09 18:07
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

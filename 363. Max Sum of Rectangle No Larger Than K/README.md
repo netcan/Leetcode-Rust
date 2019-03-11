@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k)
 - 执行时间/Runtime: 496 ms 
 - 内存消耗/Mem Usage: 2.9 MB
-- 提交日期/Datetime: 2019-03-06 14:28
+- 通过日期/Accept Datetime: 2019-03-06 14:28
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

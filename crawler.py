@@ -2,6 +2,7 @@
 # encoding: utf-8
 # by netcan @ https://github.com/netcan/Leetcode-Rust
 import requests, os
+import requests_cache
 import re, threading
 import subprocess
 from requests.utils import requote_uri
@@ -30,7 +31,7 @@ QUESTION_TEMPLATE = """
 - 题目地址/Problem Url: [{question_url}]({question_url})
 - 执行时间/Runtime: {runtime} 
 - 内存消耗/Mem Usage: {mem_usage}
-- 提交日期/Datetime: {time}
+- 通过日期/Accept Datetime: {time}
 
 ```{lang}
 {code}
@@ -146,6 +147,7 @@ class Leetcode:
 
 
 if __name__ == '__main__':
+    requests_cache.install_cache('leetcode')
     lc = Leetcode()
 
     lc.output_source()

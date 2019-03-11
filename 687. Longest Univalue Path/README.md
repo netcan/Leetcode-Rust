@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/longest-univalue-path](https://leetcode-cn.com/problems/longest-univalue-path)
 - 执行时间/Runtime: 48 ms 
 - 内存消耗/Mem Usage: 4.3 MB
-- 提交日期/Datetime: 2019-03-09 23:13
+- 通过日期/Accept Datetime: 2019-03-09 23:13
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

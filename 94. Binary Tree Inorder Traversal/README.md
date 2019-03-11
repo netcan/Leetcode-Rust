@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)
 - 执行时间/Runtime: 0 ms 
 - 内存消耗/Mem Usage: 725 KB
-- 提交日期/Datetime: 2019-02-19 20:44
+- 通过日期/Accept Datetime: 2019-02-19 20:44
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

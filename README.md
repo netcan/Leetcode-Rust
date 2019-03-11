@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（42 个，其中简单20 个，中等14 个， 困难8 个）：
+目前已解决的题目（44 个，其中简单21 个，中等14 个， 困难9 个）：
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)
 - [50. Pow(x, n) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/50.%20Pow(x,%20n))
 - [51. N-Queens :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/51.%20N-Queens)
@@ -47,3 +47,5 @@
 - [908. Middle of the Linked List :star:](https://github.com/netcan/Leetcode-Rust/tree/master/908.%20Middle%20of%20the%20Linked%20List)
 - [958. Sort Array By Parity II :star:](https://github.com/netcan/Leetcode-Rust/tree/master/958.%20Sort%20Array%20By%20Parity%20II)
 - [972. Knight Dialer :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/972.%20Knight%20Dialer)
+- [1019. Squares of a Sorted Array :star:](https://github.com/netcan/Leetcode-Rust/tree/master/1019.%20Squares%20of%20a%20Sorted%20Array)
+- [1037. Minimum Number of K Consecutive Bit Flips :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/1037.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips)

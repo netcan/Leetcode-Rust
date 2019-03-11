@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/max-area-of-island](https://leetcode-cn.com/problems/max-area-of-island)
 - 执行时间/Runtime: 8 ms 
 - 内存消耗/Mem Usage: 2.5 MB
-- 提交日期/Datetime: 2019-03-11 15:35
+- 通过日期/Accept Datetime: 2019-03-11 15:35
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

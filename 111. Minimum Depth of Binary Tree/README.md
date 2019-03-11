@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 3.2 MB
-- 提交日期/Datetime: 2019-03-08 17:55
+- 通过日期/Accept Datetime: 2019-03-08 17:55
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

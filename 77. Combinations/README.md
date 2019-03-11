@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/combinations](https://leetcode-cn.com/problems/combinations)
 - 执行时间/Runtime: 12 ms 
 - 内存消耗/Mem Usage: 3.2 MB
-- 提交日期/Datetime: 2019-02-18 16:39
+- 通过日期/Accept Datetime: 2019-02-18 16:39
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

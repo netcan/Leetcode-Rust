@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/simplify-path](https://leetcode-cn.com/problems/simplify-path)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 2.4 MB
-- 提交日期/Datetime: 2019-03-05 19:51
+- 通过日期/Accept Datetime: 2019-03-05 19:51
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

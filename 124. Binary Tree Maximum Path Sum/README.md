@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)
 - 执行时间/Runtime: 8 ms 
 - 内存消耗/Mem Usage: 4.5 MB
-- 提交日期/Datetime: 2019-03-09 23:40
+- 通过日期/Accept Datetime: 2019-03-09 23:40
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

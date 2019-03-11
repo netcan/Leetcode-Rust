@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/number-of-islands](https://leetcode-cn.com/problems/number-of-islands)
 - 执行时间/Runtime: 8 ms 
 - 内存消耗/Mem Usage: 4.6 MB
-- 提交日期/Datetime: 2019-03-11 15:21
+- 通过日期/Accept Datetime: 2019-03-11 15:21
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

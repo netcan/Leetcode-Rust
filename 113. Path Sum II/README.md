@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/path-sum-ii](https://leetcode-cn.com/problems/path-sum-ii)
 - 执行时间/Runtime: 4 ms 
 - 内存消耗/Mem Usage: 6.7 MB
-- 提交日期/Datetime: 2019-03-10 00:48
+- 通过日期/Accept Datetime: 2019-03-10 00:48
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

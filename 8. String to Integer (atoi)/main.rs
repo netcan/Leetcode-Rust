@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::i32;
 impl Solution {
     pub fn my_atoi(str: String) -> i32 {
@@ -44,3 +47,4 @@ impl Solution {
         ret as i32
     }
 }
+

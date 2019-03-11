@@ -3,7 +3,7 @@
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/sum-root-to-leaf-numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers)
 - 执行时间/Runtime: 0 ms 
 - 内存消耗/Mem Usage: 2.5 MB
-- 提交日期/Datetime: 2019-03-10 00:17
+- 通过日期/Accept Datetime: 2019-03-10 00:17
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
