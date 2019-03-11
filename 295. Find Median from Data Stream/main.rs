@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::collections::BTreeMap;
 
 struct MedianFinder {
@@ -39,3 +42,4 @@ impl MedianFinder {
         }
     }
 }
+

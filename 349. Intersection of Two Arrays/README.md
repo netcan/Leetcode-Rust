@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-08 11:43
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::collections::HashSet;
 impl Solution {
     pub fn intersection(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
@@ -15,4 +18,5 @@ impl Solution {
         a.intersection(&b).cloned().collect()
     }
 }
+
 ```

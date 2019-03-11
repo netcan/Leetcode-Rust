@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-05 19:27
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn climb_stairs(n: i32) -> i32 {
         let mut vec = vec![0; (n + 2) as usize];
@@ -17,5 +20,6 @@ impl Solution {
         vec[n as usize]
     }
 }
+
 
 ```

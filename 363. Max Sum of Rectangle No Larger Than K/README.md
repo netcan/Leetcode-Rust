@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-06 14:28
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     fn sum_submatrix(matrix_sum: &Vec<Vec<i32>>, i: usize, j: usize, k: usize, l: usize) -> i32 {
         if i as i32 - 1 >= 0 && j as i32 - 1 >= 0 {
@@ -64,5 +67,6 @@ impl Solution {
         }
     }
 }
+
 
 ```

@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-05 19:51
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn simplify_path(path: String) -> String {
         let dir: Vec<&str> = path.split('/').collect();
@@ -58,6 +61,7 @@ mod tests {
         assert_eq!(Solution::simplify_path("/a//b////c/d//././/..".to_string()), "/a/b/c");
     }
 }
+
 
 
 ```

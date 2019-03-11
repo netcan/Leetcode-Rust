@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn judge_point24(nums: Vec<i32>) -> bool {
         Solution::judge_point24_(

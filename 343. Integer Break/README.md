@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-07 15:06
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::cmp::max;
 impl Solution {
     pub fn integer_break(n: i32) -> i32 {
@@ -20,5 +23,6 @@ impl Solution {
         dp[n] as i32
     }
 }
+
 
 ```

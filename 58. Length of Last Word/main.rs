@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn length_of_last_word(s: String) -> i32 {
         let words: Vec<&str> = s.split_whitespace().collect();
@@ -8,3 +11,4 @@ impl Solution {
 
     }
 }
+

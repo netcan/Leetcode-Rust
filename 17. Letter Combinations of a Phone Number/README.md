@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-02-19 19:37
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
 
     const ALPHA: [&'static str; 10] = [
@@ -44,5 +47,6 @@ impl Solution {
         }
     }
 }
+
 
 ```

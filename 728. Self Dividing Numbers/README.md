@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-06 09:28
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn self_dividing_numbers(left: i32, right: i32) -> Vec<i32> {
         let ret = (left..=right).filter(|&x| {
@@ -23,5 +26,6 @@ impl Solution {
         ret
     }
 }
+
 
 ```

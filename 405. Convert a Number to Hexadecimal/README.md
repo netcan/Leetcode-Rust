@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-06 09:52
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     const H:[char;16] = [
         '0', '1', '2', '3', '4', '5',
@@ -25,5 +28,6 @@ impl Solution {
         ret.chars().rev().collect()
     }
 }
+
 
 ```

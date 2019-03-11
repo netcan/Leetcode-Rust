@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn compress(chars: &mut Vec<char>) -> i32 {
         let mut repeat_num = 1;
@@ -23,3 +26,4 @@ impl Solution {
         chars.len() as i32
     }
 }
+

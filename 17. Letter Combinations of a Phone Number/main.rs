@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
 
     const ALPHA: [&'static str; 10] = [
@@ -36,3 +39,4 @@ impl Solution {
         }
     }
 }
+

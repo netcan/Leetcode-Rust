@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::cmp::max;
 impl Solution {
     pub fn integer_break(n: i32) -> i32 {
@@ -12,3 +15,4 @@ impl Solution {
         dp[n] as i32
     }
 }
+

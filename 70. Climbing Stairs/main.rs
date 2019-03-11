@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn climb_stairs(n: i32) -> i32 {
         let mut vec = vec![0; (n + 2) as usize];
@@ -9,3 +12,4 @@ impl Solution {
         vec[n as usize]
     }
 }
+

@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn self_dividing_numbers(left: i32, right: i32) -> Vec<i32> {
         let ret = (left..=right).filter(|&x| {
@@ -15,3 +18,4 @@ impl Solution {
         ret
     }
 }
+

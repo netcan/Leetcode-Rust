@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-05 18:58
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn next_greatest_letter(letters: Vec<char>, target: char) -> char {
         for c in letters.iter() {
@@ -16,5 +19,6 @@ impl Solution {
         letters[0]
     }
 }
+
 
 ```

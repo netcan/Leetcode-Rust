@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn range_bitwise_and(m: i32, n: i32) -> i32 {
         let m: u32 = m as u32;
@@ -10,3 +13,4 @@ impl Solution {
         (m & !(bit_and - 1) & n) as i32
     }
 }
+

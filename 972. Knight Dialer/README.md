@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-06 18:27
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn knight_dialer(n: i32) -> i32 {
         let n: usize = n as usize;
@@ -36,5 +39,6 @@ impl Solution {
         dp[n & 1].iter().fold(0, |a, &b| { (a+b) % 1000000007 })
     }
 }
+
 
 ```

@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-02-19 20:44
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -23,5 +26,6 @@ impl Solution {
         ret
     }
 }
+
 
 ```

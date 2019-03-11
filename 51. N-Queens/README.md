@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-10 12:57
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::iter;
 
 impl Solution {
@@ -55,4 +58,5 @@ impl Solution {
         }
     }
 }
+
 ```

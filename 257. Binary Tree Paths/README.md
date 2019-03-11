@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-06 23:17
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -54,6 +57,7 @@ impl Solution {
         }
     }
 }
+
 
 
 ```

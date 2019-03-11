@@ -1,3 +1,6 @@
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::rc::Rc;
 use std::cell::RefCell;
 
@@ -31,3 +34,4 @@ impl Solution {
     }
 
 }
+

@@ -8,6 +8,13 @@ from requests.utils import requote_uri
 from collections import Counter
 from datetime import datetime
 
+CODE_TEMPLATE = \
+"""// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
+{code}
+"""
+
 REPO_README_TEMPLATE = """
 ## Leetcode-Rust
 本项目记录我的Rust刷题经验，也是学习Rust的过程。
@@ -84,7 +91,7 @@ class Leetcode:
                 submit_list = self.get_submit_list(question_["question_slug"])
                 for submit in submit_list:
                     if submit["lang"] == lang:
-                        src = self.get_source(submit['url'])
+                        src = CODE_TEMPLATE.format(code=self.get_source(submit['url']))
                         dir_name = "{}. {}".format(question_["question_id"], question_["question_title"])
                         if not os.path.exists(dir_name):
                             os.mkdir(dir_name)

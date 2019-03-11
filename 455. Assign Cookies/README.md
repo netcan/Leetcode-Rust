@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-05 20:22
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn find_content_children(mut g: Vec<i32>, mut s: Vec<i32>) -> i32 {
         g.sort();
@@ -26,6 +29,7 @@ impl Solution {
         ret
     }
 }
+
 
 
 ```

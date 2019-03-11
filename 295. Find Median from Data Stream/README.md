@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-03-07 20:11
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 use std::collections::BTreeMap;
 
 struct MedianFinder {
@@ -47,5 +50,6 @@ impl MedianFinder {
         }
     }
 }
+
 
 ```

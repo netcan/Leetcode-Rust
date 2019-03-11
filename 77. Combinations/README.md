@@ -6,6 +6,9 @@
 - 提交日期/Datetime: 2019-02-18 16:39
 
 ```rust
+// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
+// Zhihu: https://www.zhihu.com/people/netcan
+
 impl Solution {
     pub fn combine(n: i32, k: i32) -> Vec<Vec<i32>> {
         let mut ret = vec![];
@@ -27,5 +30,6 @@ impl Solution {
         }
     }
 }
+
 
 ```
