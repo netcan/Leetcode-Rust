@@ -59,15 +59,17 @@ class Leetcode:
             }
 
     def get_solved_list(self):
-        # print(requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json())
-        return [{
-            "question_slug": v['stat']['question__title_slug'],
-            "question_id": v['stat']['question_id'],
-            "question_title": v['stat']['question__title'],
-            "question_difficulty": v['difficulty']['level']
-            } for v in
-                requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json()['stat_status_pairs']
-            if v['status'] == 'ac' ]
+        with requests_cache.disabled():
+            # print("solved_list: ", requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json())
+            return [{
+                "question_slug": v['stat']['question__title_slug'],
+                "question_id": v['stat']['question_id'],
+                "question_title": v['stat']['question__title'],
+                "question_difficulty": v['difficulty']['level']
+                } for v in
+                    requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json()['stat_status_pairs']
+                if v['status'] == 'ac'
+            ]
 
     def get_submit_list(self, question_slug):
         data = '{"operationName":"Submissions","variables":{"offset":0,"limit":0,"lastKey":null,"questionSlug":"%s"},"query":"query Submissions($offset: Int!, $limit: Int!, $lastKey: String, $questionSlug: String!) {\\n  submissionList(offset: $offset, limit: $limit, lastKey: $lastKey, questionSlug: $questionSlug) {\\n    lastKey\\n    hasNext\\n    submissions {\\n      id\\n      statusDisplay\\n      lang\\n      runtime\\n      timestamp\\n      url\\n      isPending\\n      memory\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n"}' % question_slug
@@ -77,8 +79,11 @@ class Leetcode:
 
     def get_source(self, url): # /submissions/detail/14313499/
         req_url = self.LEETCODE_URL + url
-        src = re.search('submissionCode: \'(.*)\',', requests.get(req_url, headers=self.headers).text).group(1)
-        return src.encode('cp1252', 'backslashreplace').decode('unicode-escape')
+        try:
+            src = re.search('submissionCode: \'(.*)\',', requests.get(req_url, headers=self.headers).text).group(1)
+            return src.encode('cp1252', 'backslashreplace').decode('unicode-escape')
+        except AttributeError:
+            pass
 
     def output_source(self, lang='rust', lang_suffix='rs', max_threads=8):
         solved_list = self.get_solved_list()
@@ -92,8 +97,11 @@ class Leetcode:
                 submit_list = self.get_submit_list(question_["question_slug"])
                 for submit in submit_list:
                     if submit["lang"] == lang:
-                        src = CODE_TEMPLATE.format(code=self.get_source(submit['url']))
-                        dir_name = "{}. {}".format(question_["question_id"], question_["question_title"])
+                        src = self.get_source(submit['url'])
+                        if not src: continue
+
+                        src = CODE_TEMPLATE.format(code=src)
+                        dir_name = "n{:04d}. {}".format(question_["question_id"], question_["question_title"])
                         if not os.path.exists(dir_name):
                             os.mkdir(dir_name)
                         with open(os.path.join(dir_name, "main.{}".format(lang_suffix)), "w") as f:
@@ -108,9 +116,9 @@ class Leetcode:
                                                              time = datetime.fromtimestamp(int(submit["timestamp"])).strftime("%Y-%m-%d %H:%M"),
                                                              lang = lang,
                                                              code = src))
-                        question_list.append("{}. {} {}".format(question_["question_id"],
-                                                                question_["question_title"],
-                                                                ":star:" * question_["question_difficulty"]))
+                        question_list.append("n{:04d}. {} {}".format(question_["question_id"],
+                                                                     question_["question_title"],
+                                                                     ":star:" * question_["question_difficulty"]))
                         break
 
             while len(threads) >= max_threads:
@@ -132,7 +140,7 @@ class Leetcode:
         question_list.sort(key=lambda q: int(re.search(r"(\d+)\..*", q).group(1)))
         question_list = '\n'.join(
             map(lambda u: "- [{}]({})".format(
-                u, requote_uri(
+                u.lstrip('n0'), requote_uri(
                     (Leetcode.REPO_URL + '/tree/master/{}'.format(u.replace(':star:', ''))).strip()
                 )
             ) , question_list)
