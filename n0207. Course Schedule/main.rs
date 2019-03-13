@@ -1,17 +1,9 @@
-
-### Course Schedule II :star::star:
-- 题目地址/Problem Url: [https://leetcode-cn.com/problems/course-schedule-ii](https://leetcode-cn.com/problems/course-schedule-ii)
-- 执行时间/Runtime: 4 ms 
-- 内存消耗/Mem Usage: 3.1 MB
-- 通过日期/Accept Datetime: 2019-03-13 09:19
-
-```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan
 
 use std::iter;
 impl Solution {
-    pub fn find_order(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> Vec<i32> {
+    pub fn can_finish(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> bool {
         let mut graph = iter::repeat(Vec::<i32>::new()).take(num_courses as usize).collect::<Vec<Vec<i32>>>();
         let mut indegree = vec![0; num_courses as usize];
 
@@ -30,10 +22,8 @@ impl Solution {
             }
         }
 
-        let mut order: Vec<i32> = Vec::new();
         while !S.is_empty() {
             let v = S.pop().unwrap();
-            order.push(v);
             for &u in &graph[v as usize] {
                 indegree[u as usize] -= 1;
                 if indegree[u as usize] == 0 {
@@ -44,12 +34,10 @@ impl Solution {
 
         // 图是否为空
         if (indegree.iter().all(|&e| e == 0)) {
-            order
+            true
         } else {
-            vec![]
+            false
         }
     }
 }
 
-
-```
