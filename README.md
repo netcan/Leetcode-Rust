@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（54 个，其中简单22 个，中等21 个， 困难11 个）：
+目前已解决的题目（56 个，其中简单23 个，中等22 个， 困难11 个）：
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
 - [37. Sudoku Solver :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0037.%20Sudoku%20Solver)
 - [50. Pow(x, n) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0050.%20Pow(x,%20n))
@@ -28,6 +28,7 @@
 - [201. Bitwise AND of Numbers Range :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0201.%20Bitwise%20AND%20of%20Numbers%20Range)
 - [207. Course Schedule :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0207.%20Course%20Schedule)
 - [210. Course Schedule II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0210.%20Course%20Schedule%20II)
+- [223. Rectangle Area :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0223.%20Rectangle%20Area)
 - [257. Binary Tree Paths :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0257.%20Binary%20Tree%20Paths)
 - [295. Find Median from Data Stream :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0295.%20Find%20Median%20from%20Data%20Stream)
 - [343. Integer Break :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0343.%20Integer%20Break)
@@ -48,6 +49,7 @@
 - [695. Max Area of Island :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0695.%20Max%20Area%20of%20Island)
 - [728. Self Dividing Numbers :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0728.%20Self%20Dividing%20Numbers)
 - [745. Find Smallest Letter Greater Than Target :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0745.%20Find%20Smallest%20Letter%20Greater%20Than%20Target)
+- [866. Rectangle Overlap :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0866.%20Rectangle%20Overlap)
 - [891. Score After Flipping Matrix :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0891.%20Score%20After%20Flipping%20Matrix)
 - [908. Middle of the Linked List :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0908.%20Middle%20of%20the%20Linked%20List)
 - [909. Stone Game :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0909.%20Stone%20Game)
