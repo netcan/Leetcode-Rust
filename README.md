@@ -4,9 +4,11 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（67 个，其中简单24 个，中等26 个， 困难17 个）：
+目前已解决的题目（70 个，其中简单24 个，中等28 个， 困难18 个）：
+- [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
+- [36. Valid Sudoku :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0036.%20Valid%20Sudoku)
 - [37. Sudoku Solver :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0037.%20Sudoku%20Solver)
 - [50. Pow(x, n) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0050.%20Pow(x,%20n))
 - [51. N-Queens :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0051.%20N-Queens)
@@ -38,6 +40,7 @@
 - [343. Integer Break :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0343.%20Integer%20Break)
 - [349. Intersection of Two Arrays :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0349.%20Intersection%20of%20Two%20Arrays)
 - [363. Max Sum of Rectangle No Larger Than K :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)
+- [375. Guess Number Higher or Lower II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0375.%20Guess%20Number%20Higher%20or%20Lower%20II)
 - [392. Is Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0392.%20Is%20Subsequence)
 - [405. Convert a Number to Hexadecimal :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0405.%20Convert%20a%20Number%20to%20Hexadecimal)
 - [437. Path Sum III :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0437.%20Path%20Sum%20III)

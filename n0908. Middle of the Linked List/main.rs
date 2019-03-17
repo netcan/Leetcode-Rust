@@ -5,19 +5,18 @@ impl Solution {
     pub fn middle_node(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut pos: i32 = 0;
         let mut p = &mut head;
-        while p.is_some() {
+        while let Some(ref mut node) = *p {
             pos += 1;
-            p = &mut p.as_mut().unwrap().next;
+            p = &mut node.next;
         }
         pos /= 2;
 
-        p = &mut head;
-        while p.is_some() {
+        while let Some(ref mut node) = head {
             if pos <= 0 { break; }
+            head = node.next.take();
             pos -= 1;
-            p = &mut p.as_mut().unwrap().next;
         }
-        p.take()
+        head
     }
 }
 

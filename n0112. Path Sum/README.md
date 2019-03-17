@@ -1,9 +1,8 @@
-
 ### Path Sum :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/path-sum](https://leetcode-cn.com/problems/path-sum)
 - 执行时间/Runtime: 4 ms 
-- 内存消耗/Mem Usage: 3.1 MB
-- 通过日期/Accept Datetime: 2019-03-10 00:06
+- 内存消耗/Mem Usage: 3.2 MB
+- 通过日期/Accept Datetime: 2019-03-10 00:04
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
@@ -22,9 +21,11 @@ impl Solution {
             Some(node) => {
                 let node = node.borrow();
                 let diff = sum - node.val;
-                if node.left.is_none() &&
-                    node.right.is_none() &&
-                        diff == 0 { return true; }
+                if let None = node.left {
+                    if let None = node.right {
+                        if diff == 0 { return true; }
+                    }
+                }
                 Solution::has_path_sum_(&node.left, diff) ||
                 Solution::has_path_sum_(&node.right, diff)
             },

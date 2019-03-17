@@ -13,7 +13,7 @@ impl Solution {
         let mut ans = 0;
         for a in &nums {
             for b in (0..=max_num as i32) {
-                if a & b == 0 {
+                if *a & b == 0 {
                     ans += dp[b as usize];
                 }
             }

@@ -1,4 +1,3 @@
-
 ### Count of Smaller Numbers After Self :star::star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self)
 - 执行时间/Runtime: 8 ms 

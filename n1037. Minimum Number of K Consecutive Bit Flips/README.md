@@ -1,9 +1,8 @@
-
 ### Minimum Number of K Consecutive Bit Flips :star::star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips)
 - 执行时间/Runtime: 20 ms 
 - 内存消耗/Mem Usage: 3.5 MB
-- 通过日期/Accept Datetime: 2019-03-11 23:53
+- 通过日期/Accept Datetime: 2019-03-11 23:42
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

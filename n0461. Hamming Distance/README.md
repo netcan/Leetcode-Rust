@@ -1,4 +1,3 @@
-
 ### Hamming Distance :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/hamming-distance](https://leetcode-cn.com/problems/hamming-distance)
 - 执行时间/Runtime: 0 ms 

@@ -1,9 +1,8 @@
-
 ### Number of Islands :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/number-of-islands](https://leetcode-cn.com/problems/number-of-islands)
-- 执行时间/Runtime: 8 ms 
+- 执行时间/Runtime: 12 ms 
 - 内存消耗/Mem Usage: 4.6 MB
-- 通过日期/Accept Datetime: 2019-03-11 15:21
+- 通过日期/Accept Datetime: 2019-03-11 15:17
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
@@ -12,12 +11,16 @@
 use std::collections::VecDeque;
 impl Solution {
     const dxy: [(i32, i32); 4] = [(0 ,1), (0, -1), (-1, 0), (1, 0)];
-    pub fn num_islands(mut grid: Vec<Vec<char>>) -> i32 {
+    pub fn num_islands(grid: Vec<Vec<char>>) -> i32 {
+        let mut grid = grid;
+        if grid.len() == 0 {
+            return 0;
+        }
+        let (m, n) = (grid.len(), grid[0].len());
         let mut cnt: i32 = 0;
-        for j in (0..grid.len()) {
-            for i in (0..grid[0].len()) {
-                if grid[j][i] == '1' {
-                    Solution::find_island(&mut grid, (j as i32, i as i32));
+        for j in (0..m) {
+            for i in (0..n) {
+                if grid[j][i] == '1' && Solution::find_island(&mut grid, (j as i32, i as i32)) {
                     cnt += 1;
                 }
             }

@@ -1,9 +1,8 @@
-
 ### Course Schedule II :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/course-schedule-ii](https://leetcode-cn.com/problems/course-schedule-ii)
 - 执行时间/Runtime: 4 ms 
-- 内存消耗/Mem Usage: 3.1 MB
-- 通过日期/Accept Datetime: 2019-03-13 09:19
+- 内存消耗/Mem Usage: 3 MB
+- 通过日期/Accept Datetime: 2019-03-12 20:39
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

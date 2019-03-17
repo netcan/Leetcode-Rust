@@ -1,4 +1,3 @@
-
 ### Convert a Number to Hexadecimal :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)
 - 执行时间/Runtime: 0 ms 

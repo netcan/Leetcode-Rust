@@ -1,4 +1,3 @@
-
 ### Rectangle Area :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/rectangle-area](https://leetcode-cn.com/problems/rectangle-area)
 - 执行时间/Runtime: 16 ms 

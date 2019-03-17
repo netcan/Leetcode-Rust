@@ -1,4 +1,3 @@
-
 ### Second Minimum Node In a Binary Tree :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)
 - 执行时间/Runtime: 0 ms 

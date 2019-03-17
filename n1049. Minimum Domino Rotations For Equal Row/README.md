@@ -1,4 +1,3 @@
-
 ### Minimum Domino Rotations For Equal Row :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/minimum-domino-rotations-for-equal-row](https://leetcode-cn.com/problems/minimum-domino-rotations-for-equal-row)
 - 执行时间/Runtime: 12 ms 

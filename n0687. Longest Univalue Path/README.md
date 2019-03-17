@@ -1,4 +1,3 @@
-
 ### Longest Univalue Path :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/longest-univalue-path](https://leetcode-cn.com/problems/longest-univalue-path)
 - 执行时间/Runtime: 48 ms 

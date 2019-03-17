@@ -1,4 +1,3 @@
-
 ### Pow(x, n) :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/powx-n](https://leetcode-cn.com/problems/powx-n)
 - 执行时间/Runtime: 0 ms 

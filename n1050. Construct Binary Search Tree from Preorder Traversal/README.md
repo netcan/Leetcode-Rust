@@ -1,4 +1,3 @@
-
 ### Construct Binary Search Tree from Preorder Traversal :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal)
 - 执行时间/Runtime: 0 ms 

@@ -1,4 +1,3 @@
-
 ### N-Queens II :star::star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/n-queens-ii](https://leetcode-cn.com/problems/n-queens-ii)
 - 执行时间/Runtime: 12 ms 

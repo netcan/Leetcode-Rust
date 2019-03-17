@@ -26,8 +26,8 @@ REPO_README_TEMPLATE = """
 {solv_question_list}
 """
 
-QUESTION_TEMPLATE = """
-### {question_name} {question_level}
+QUESTION_TEMPLATE = \
+"""### {question_name} {question_level}
 - 题目地址/Problem Url: [{question_url}]({question_url})
 - 执行时间/Runtime: {runtime} 
 - 内存消耗/Mem Usage: {mem_usage}
@@ -88,7 +88,6 @@ class Leetcode:
     def output_source(self, lang='rust', lang_suffix='rs', max_threads=8):
         solved_list = self.get_solved_list()
         threads = []
-        question_list = []
         for idx, question in enumerate(solved_list):
             print("processing: {}. {} ({}/{})".format(question["question_id"],
                                                       question["question_title"],
@@ -116,10 +115,6 @@ class Leetcode:
                                                              time = datetime.fromtimestamp(int(submit["timestamp"])).strftime("%Y-%m-%d %H:%M"),
                                                              lang = lang,
                                                              code = src))
-                        question_list.append("n{:04d}. {} {}".format(question_["question_id"],
-                                                                     question_["question_title"],
-                                                                     ":star:" * question_["question_difficulty"]))
-                        break
 
             while len(threads) >= max_threads:
                 for thread in threads:
@@ -130,13 +125,26 @@ class Leetcode:
             thread.start()
             threads.append(thread)
 
-        self.__generate_readme(question_list)
+        # 最后检查存活线程
+        while len(threads) > 0:
+            for thread in threads:
+                if not thread.is_alive():
+                    threads.remove(thread)
+
+    def generate_readme(self):
+        pattern_name = re.compile('n(\d+)\. (.*)')
+        question_level = {
+            1: 0, 2: 0, 3: 0
+        }
+        question_list = []
+        for dir in os.listdir('.'):
+            if not pattern_name.match(dir): continue
+            # 更新难度
+            level = open('{}/README.md'.format(dir), 'r').readline().count(':star:')
+            question_level[level] += 1
+            question_list.append('{} {}'.format(dir, ':star:' * level))
 
 
-
-    def __generate_readme(self, question_list):
-        question_num = len(question_list)
-        question_level = Counter(q.count(':star:') for q in question_list)
         question_list.sort(key=lambda q: int(re.search(r"(\d+)\..*", q).group(1)))
         question_list = '\n'.join(
             map(lambda u: "- [{}]({})".format(
@@ -147,7 +155,7 @@ class Leetcode:
         )
 
         with open("README.md", "w") as f:
-            f.write(REPO_README_TEMPLATE.format(solv_question_num=question_num,
+            f.write(REPO_README_TEMPLATE.format(solv_question_num=sum(question_level.values()),
                                                 easy_num=question_level[1],
                                                 medium_num=question_level[2],
                                                 hard_num=question_level[3],
@@ -159,6 +167,7 @@ if __name__ == '__main__':
     lc = Leetcode()
 
     lc.output_source()
+    lc.generate_readme()
 
     subprocess.run(["git", "add", "."])
     subprocess.run(["git", "commit", "-m", "commit by crawler.py @Netcan at {}".format(datetime.now().strftime("%Y-%m-%d %H:%M"))])

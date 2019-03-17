@@ -3,18 +3,23 @@
 
 impl Solution {
     pub fn self_dividing_numbers(left: i32, right: i32) -> Vec<i32> {
-        let ret = (left..=right).filter(|&x| {
-            let mut _x = x;
-            let mut dividing = true;
-            while(_x > 0) {
-                if(_x % 10 == 0 || (x % (_x % 10)) != 0) {
+        let mut ret = vec![];
+        for num in left..=right {
+            let num_str = num.to_string();
+            if let Some(_) = num_str.to_string().find("0") {
+                continue;
+            }
+            let mut dividing: bool = true;
+            for n in num_str.as_bytes() {
+                if num % (*n - '0' as u8) as i32 != 0 {
                     dividing = false;
                     break;
                 }
-                _x /= 10;
             }
-            dividing
-        }).collect();
+            if dividing {
+                ret.push(num);
+            }
+        }
         ret
     }
 }

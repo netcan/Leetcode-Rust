@@ -1,9 +1,8 @@
-
 ### Middle of the Linked List :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/middle-of-the-linked-list](https://leetcode-cn.com/problems/middle-of-the-linked-list)
 - 执行时间/Runtime: 0 ms 
-- 内存消耗/Mem Usage: 2.5 MB
-- 通过日期/Accept Datetime: 2019-03-11 18:34
+- 内存消耗/Mem Usage: 2.4 MB
+- 通过日期/Accept Datetime: 2019-03-11 17:13
 
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
@@ -13,19 +12,18 @@ impl Solution {
     pub fn middle_node(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut pos: i32 = 0;
         let mut p = &mut head;
-        while p.is_some() {
+        while let Some(ref mut node) = *p {
             pos += 1;
-            p = &mut p.as_mut().unwrap().next;
+            p = &mut node.next;
         }
         pos /= 2;
 
-        p = &mut head;
-        while p.is_some() {
+        while let Some(ref mut node) = head {
             if pos <= 0 { break; }
+            head = node.next.take();
             pos -= 1;
-            p = &mut p.as_mut().unwrap().next;
         }
-        p.take()
+        head
     }
 }
 

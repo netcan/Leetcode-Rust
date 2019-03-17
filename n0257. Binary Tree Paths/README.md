@@ -1,4 +1,3 @@
-
 ### Binary Tree Paths :star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/binary-tree-paths](https://leetcode-cn.com/problems/binary-tree-paths)
 - 执行时间/Runtime: 0 ms 

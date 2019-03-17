@@ -1,4 +1,3 @@
-
 ### Binary Tree Preorder Traversal :star::star:
 - 题目地址/Problem Url: [https://leetcode-cn.com/problems/binary-tree-preorder-traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)
 - 执行时间/Runtime: 0 ms 

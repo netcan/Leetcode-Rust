@@ -9,14 +9,12 @@ impl Solution {
         if (2 - K - n as i32) % (1 - K) != 0 { return -1; }
         else if n == 1 { return 0; }
 
-        let mut sumCoin = vec![0; n + 1];
+        let mut preCost = vec![0; n + 1];
         for (i, stone) in stones.iter().enumerate() {
-            sumCoin[i + 1] = sumCoin[i] + stone;
+            preCost[i + 1] = preCost[i] + stone;
         }
 
         // dp[i][j][k]: 将i到j区间的石头合并成k块需要的最小代价
-        // dp[i][j][k] = min(dp[i][j][k], dp[i][t][k-1] + dp[t+1][j][1]) k > 2
-        // dp[i][j][1] = dp[i][j][K] + sumCoin[i][j]
         let mut dp: Vec<Vec<Vec<i32>>> = iter::repeat(
             iter::repeat(vec![100000; K as usize + 1]).take(n + 1).collect()
         ).take(n + 1).collect();
@@ -32,7 +30,7 @@ impl Solution {
                     }
                 }
                 // k块合成1块等于k块的代价 + 最后所有的和
-                dp[i][j][1] = dp[i][j][K as usize] + sumCoin[j] - sumCoin[i - 1];
+                dp[i][j][1] = dp[i][j][K as usize] + preCost[j] - preCost[i - 1];
             }
         }
 
