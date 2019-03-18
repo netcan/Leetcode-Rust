@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（70 个，其中简单24 个，中等28 个， 困难18 个）：
+目前已解决的题目（73 个，其中简单24 个，中等31 个， 困难18 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -33,6 +33,7 @@
 - [210. Course Schedule II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0210.%20Course%20Schedule%20II)
 - [223. Rectangle Area :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0223.%20Rectangle%20Area)
 - [257. Binary Tree Paths :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0257.%20Binary%20Tree%20Paths)
+- [279. Perfect Squares :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0279.%20Perfect%20Squares)
 - [295. Find Median from Data Stream :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0295.%20Find%20Median%20from%20Data%20Stream)
 - [312. Burst Balloons :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0312.%20Burst%20Balloons)
 - [315. Count of Smaller Numbers After Self :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0315.%20Count%20of%20Smaller%20Numbers%20After%20Self)
@@ -43,6 +44,7 @@
 - [375. Guess Number Higher or Lower II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0375.%20Guess%20Number%20Higher%20or%20Lower%20II)
 - [392. Is Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0392.%20Is%20Subsequence)
 - [405. Convert a Number to Hexadecimal :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0405.%20Convert%20a%20Number%20to%20Hexadecimal)
+- [424. Longest Repeating Character Replacement :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0424.%20Longest%20Repeating%20Character%20Replacement)
 - [437. Path Sum III :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0437.%20Path%20Sum%20III)
 - [443. String Compression :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0443.%20String%20Compression)
 - [455. Assign Cookies :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0455.%20Assign%20Cookies)
@@ -71,6 +73,7 @@
 - [1033. Broken Calculator :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1033.%20Broken%20Calculator)
 - [1037. Minimum Number of K Consecutive Bit Flips :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1037.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips)
 - [1042. Minimum Cost to Merge Stones :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1042.%20Minimum%20Cost%20to%20Merge%20Stones)
+- [1046. Max Consecutive Ones III :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1046.%20Max%20Consecutive%20Ones%20III)
 - [1047. Maximize Sum Of Array After K Negations :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1047.%20Maximize%20Sum%20Of%20Array%20After%20K%20Negations)
 - [1048. Clumsy Factorial :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1048.%20Clumsy%20Factorial)
 - [1049. Minimum Domino Rotations For Equal Row :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1049.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row)
