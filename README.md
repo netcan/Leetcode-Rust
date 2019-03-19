@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（73 个，其中简单24 个，中等31 个， 困难18 个）：
+目前已解决的题目（78 个，其中简单26 个，中等33 个， 困难19 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -27,6 +27,7 @@
 - [136. Single Number :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0136.%20Single%20Number)
 - [144. Binary Tree Preorder Traversal :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0144.%20Binary%20Tree%20Preorder%20Traversal)
 - [145. Binary Tree Postorder Traversal :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0145.%20Binary%20Tree%20Postorder%20Traversal)
+- [179. Largest Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0179.%20Largest%20Number)
 - [200. Number of Islands :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0200.%20Number%20of%20Islands)
 - [201. Bitwise AND of Numbers Range :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0201.%20Bitwise%20AND%20of%20Numbers%20Range)
 - [207. Course Schedule :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0207.%20Course%20Schedule)
@@ -69,6 +70,7 @@
 - [958. Sort Array By Parity II :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0958.%20Sort%20Array%20By%20Parity%20II)
 - [972. Knight Dialer :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0972.%20Knight%20Dialer)
 - [1019. Squares of a Sorted Array :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1019.%20Squares%20of%20a%20Sorted%20Array)
+- [1022. Unique Paths III :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1022.%20Unique%20Paths%20III)
 - [1024. Triples with Bitwise AND Equal To Zero :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1024.%20Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero)
 - [1033. Broken Calculator :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1033.%20Broken%20Calculator)
 - [1037. Minimum Number of K Consecutive Bit Flips :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1037.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips)
@@ -78,3 +80,6 @@
 - [1048. Clumsy Factorial :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1048.%20Clumsy%20Factorial)
 - [1049. Minimum Domino Rotations For Equal Row :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1049.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row)
 - [1050. Construct Binary Search Tree from Preorder Traversal :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1050.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal)
+- [1054. Complement of Base 10 Integer :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1054.%20Complement%20of%20Base%2010%20Integer)
+- [1055. Pairs of Songs With Total Durations Divisible by 60 :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1055.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)
+- [1056. Capacity To Ship Packages Within D Days :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1056.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days)
