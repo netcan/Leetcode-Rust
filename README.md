@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（78 个，其中简单26 个，中等33 个， 困难19 个）：
+目前已解决的题目（84 个，其中简单27 个，中等36 个， 困难21 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -16,6 +16,7 @@
 - [58. Length of Last Word :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0058.%20Length%20of%20Last%20Word)
 - [70. Climbing Stairs :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0070.%20Climbing%20Stairs)
 - [71. Simplify Path :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0071.%20Simplify%20Path)
+- [72. Edit Distance :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0072.%20Edit%20Distance)
 - [77. Combinations :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0077.%20Combinations)
 - [94. Binary Tree Inorder Traversal :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0094.%20Binary%20Tree%20Inorder%20Traversal)
 - [111. Minimum Depth of Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0111.%20Minimum%20Depth%20of%20Binary%20Tree)
@@ -36,13 +37,16 @@
 - [257. Binary Tree Paths :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0257.%20Binary%20Tree%20Paths)
 - [279. Perfect Squares :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0279.%20Perfect%20Squares)
 - [295. Find Median from Data Stream :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0295.%20Find%20Median%20from%20Data%20Stream)
+- [300. Longest Increasing Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0300.%20Longest%20Increasing%20Subsequence)
 - [312. Burst Balloons :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0312.%20Burst%20Balloons)
 - [315. Count of Smaller Numbers After Self :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0315.%20Count%20of%20Smaller%20Numbers%20After%20Self)
 - [327. Count of Range Sum :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0327.%20Count%20of%20Range%20Sum)
+- [334. Increasing Triplet Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0334.%20Increasing%20Triplet%20Subsequence)
 - [343. Integer Break :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0343.%20Integer%20Break)
 - [349. Intersection of Two Arrays :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0349.%20Intersection%20of%20Two%20Arrays)
 - [363. Max Sum of Rectangle No Larger Than K :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)
 - [375. Guess Number Higher or Lower II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0375.%20Guess%20Number%20Higher%20or%20Lower%20II)
+- [383. Ransom Note :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0383.%20Ransom%20Note)
 - [392. Is Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0392.%20Is%20Subsequence)
 - [405. Convert a Number to Hexadecimal :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0405.%20Convert%20a%20Number%20to%20Hexadecimal)
 - [424. Longest Repeating Character Replacement :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0424.%20Longest%20Repeating%20Character%20Replacement)
@@ -53,11 +57,13 @@
 - [463. Island Perimeter :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0463.%20Island%20Perimeter)
 - [539. Minimum Time Difference :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0539.%20Minimum%20Time%20Difference)
 - [563. Binary Tree Tilt :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0563.%20Binary%20Tree%20Tilt)
+- [583. Delete Operation for Two Strings :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0583.%20Delete%20Operation%20for%20Two%20Strings)
 - [630. Course Schedule III :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0630.%20Course%20Schedule%20III)
 - [671. Second Minimum Node In a Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
 - [674. Longest Continuous Increasing Subsequence :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0674.%20Longest%20Continuous%20Increasing%20Subsequence)
 - [679. 24 Game :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0679.%2024%20Game)
 - [687. Longest Univalue Path :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0687.%20Longest%20Univalue%20Path)
+- [691. Stickers to Spell Word :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0691.%20Stickers%20to%20Spell%20Word)
 - [695. Max Area of Island :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0695.%20Max%20Area%20of%20Island)
 - [699. Falling Squares :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0699.%20Falling%20Squares)
 - [728. Self Dividing Numbers :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0728.%20Self%20Dividing%20Numbers)
