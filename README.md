@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（84 个，其中简单27 个，中等36 个， 困难21 个）：
+目前已解决的题目（87 个，其中简单27 个，中等38 个， 困难22 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -28,6 +28,7 @@
 - [136. Single Number :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0136.%20Single%20Number)
 - [144. Binary Tree Preorder Traversal :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0144.%20Binary%20Tree%20Preorder%20Traversal)
 - [145. Binary Tree Postorder Traversal :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0145.%20Binary%20Tree%20Postorder%20Traversal)
+- [165. Compare Version Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0165.%20Compare%20Version%20Numbers)
 - [179. Largest Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0179.%20Largest%20Number)
 - [200. Number of Islands :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0200.%20Number%20of%20Islands)
 - [201. Bitwise AND of Numbers Range :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0201.%20Bitwise%20AND%20of%20Numbers%20Range)
@@ -44,6 +45,7 @@
 - [334. Increasing Triplet Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0334.%20Increasing%20Triplet%20Subsequence)
 - [343. Integer Break :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0343.%20Integer%20Break)
 - [349. Intersection of Two Arrays :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0349.%20Intersection%20of%20Two%20Arrays)
+- [354. Russian Doll Envelopes :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0354.%20Russian%20Doll%20Envelopes)
 - [363. Max Sum of Rectangle No Larger Than K :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K)
 - [375. Guess Number Higher or Lower II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0375.%20Guess%20Number%20Higher%20or%20Lower%20II)
 - [383. Ransom Note :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0383.%20Ransom%20Note)
@@ -60,6 +62,7 @@
 - [583. Delete Operation for Two Strings :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0583.%20Delete%20Operation%20for%20Two%20Strings)
 - [630. Course Schedule III :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0630.%20Course%20Schedule%20III)
 - [671. Second Minimum Node In a Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
+- [673. Number of Longest Increasing Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0673.%20Number%20of%20Longest%20Increasing%20Subsequence)
 - [674. Longest Continuous Increasing Subsequence :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0674.%20Longest%20Continuous%20Increasing%20Subsequence)
 - [679. 24 Game :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0679.%2024%20Game)
 - [687. Longest Univalue Path :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0687.%20Longest%20Univalue%20Path)
