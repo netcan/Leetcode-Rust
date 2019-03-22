@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（87 个，其中简单27 个，中等38 个， 困难22 个）：
+目前已解决的题目（88 个，其中简单27 个，中等38 个， 困难23 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -76,6 +76,7 @@
 - [891. Score After Flipping Matrix :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0891.%20Score%20After%20Flipping%20Matrix)
 - [908. Middle of the Linked List :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0908.%20Middle%20of%20the%20Linked%20List)
 - [909. Stone Game :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0909.%20Stone%20Game)
+- [938. Numbers At Most N Given Digit Set :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0938.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set)
 - [958. Sort Array By Parity II :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0958.%20Sort%20Array%20By%20Parity%20II)
 - [972. Knight Dialer :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0972.%20Knight%20Dialer)
 - [1019. Squares of a Sorted Array :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1019.%20Squares%20of%20a%20Sorted%20Array)
