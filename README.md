@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（91 个，其中简单28 个，中等40 个， 困难23 个）：
+目前已解决的题目（92 个，其中简单29 个，中等40 个， 困难23 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -64,6 +64,7 @@
 - [563. Binary Tree Tilt :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0563.%20Binary%20Tree%20Tilt)
 - [583. Delete Operation for Two Strings :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0583.%20Delete%20Operation%20for%20Two%20Strings)
 - [630. Course Schedule III :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0630.%20Course%20Schedule%20III)
+- [661. Image Smoother :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0661.%20Image%20Smoother)
 - [671. Second Minimum Node In a Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
 - [673. Number of Longest Increasing Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0673.%20Number%20of%20Longest%20Increasing%20Subsequence)
 - [674. Longest Continuous Increasing Subsequence :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0674.%20Longest%20Continuous%20Increasing%20Subsequence)
