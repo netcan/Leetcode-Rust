@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（92 个，其中简单29 个，中等40 个， 困难23 个）：
+目前已解决的题目（100 个，其中简单31 个，中等46 个， 困难23 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -97,3 +97,11 @@
 - [1054. Complement of Base 10 Integer :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1054.%20Complement%20of%20Base%2010%20Integer)
 - [1055. Pairs of Songs With Total Durations Divisible by 60 :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1055.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)
 - [1056. Capacity To Ship Packages Within D Days :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1056.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days)
+- [1062. Partition Array Into Three Parts With Equal Sum :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1062.%20Partition%20Array%20Into%20Three%20Parts%20With%20Equal%20Sum)
+- [1063. Best Sightseeing Pair :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1063.%20Best%20Sightseeing%20Pair)
+- [1064. Smallest Integer Divisible by K :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1064.%20Smallest%20Integer%20Divisible%20by%20K)
+- [1065. Binary String With Substrings Representing 1 To N :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1065.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N)
+- [1070. Convert to Base -2 :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1070.%20Convert%20to%20Base%20-2)
+- [1071. Binary Prefix Divisible By 5 :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1071.%20Binary%20Prefix%20Divisible%20By%205)
+- [1072. Next Greater Node In Linked List :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1072.%20Next%20Greater%20Node%20In%20Linked%20List)
+- [1073. Number of Enclaves :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1073.%20Number%20of%20Enclaves)
