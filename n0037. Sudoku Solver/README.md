@@ -1,9 +1,40 @@
-### Sudoku Solver :star::star::star:
-- 题目地址/Problem Url: [https://leetcode-cn.com/problems/sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver)
-- 执行时间/Runtime: 0 ms 
-- 内存消耗/Mem Usage: 2.4 MB
-- 通过日期/Accept Datetime: 2019-03-12 11:22
+## Sudoku Solver :star::star::star:
+- 题目地址: [https://leetcode-cn.com/problems/sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver)
+- 执行时间: 0 ms 
+- 内存消耗: 2.4 MB
+- 通过日期: 2019-03-12 11:22
 
+### 题目内容
+<p>编写一个程序，通过已填充的空格来解决数独问题。</p>
+
+<p>一个数独的解法需<strong>遵循如下规则</strong>：</p>
+
+<ol>
+	<li>数字 <code>1-9</code> 在每一行只能出现一次。</li>
+	<li>数字 <code>1-9</code> 在每一列只能出现一次。</li>
+	<li>数字 <code>1-9</code> 在每一个以粗实线分隔的 <code>3x3</code> 宫内只能出现一次。</li>
+</ol>
+
+<p>空白格用 <code>'.'</code> 表示。</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png"></p>
+
+<p><small>一个数独。</small></p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png"></p>
+
+<p><small>答案被标成红色。</small></p>
+
+<p><strong>Note:</strong></p>
+
+<ul>
+	<li>给定的数独序列只包含数字 <code>1-9</code> 和字符 <code>'.'</code> 。</li>
+	<li>你可以假设给定的数独只有唯一解。</li>
+	<li>给定数独永远是 <code>9x9</code> 形式的。</li>
+</ul>
+
+
+### 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

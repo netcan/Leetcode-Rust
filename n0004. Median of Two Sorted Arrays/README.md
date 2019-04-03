@@ -1,9 +1,34 @@
-### Median of Two Sorted Arrays :star::star::star:
-- 题目地址/Problem Url: [https://leetcode-cn.com/problems/median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)
-- 执行时间/Runtime: 12 ms 
-- 内存消耗/Mem Usage: 2.5 MB
-- 通过日期/Accept Datetime: 2019-03-17 16:56
+## Median of Two Sorted Arrays :star::star::star:
+- 题目地址: [https://leetcode-cn.com/problems/median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)
+- 执行时间: 12 ms 
+- 内存消耗: 2.5 MB
+- 通过日期: 2019-03-17 16:56
 
+### 题目内容
+<p>给定两个大小为 m 和 n 的有序数组 <code>nums1</code> 和 <code>nums2</code>。</p>
+
+<p>请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。</p>
+
+<p>你可以假设 <code>nums1</code> 和 <code>nums2</code> 不会同时为空。</p>
+
+<p><strong>示例 1:</strong></p>
+
+<pre>nums1 = [1, 3]
+nums2 = [2]
+
+则中位数是 2.0
+</pre>
+
+<p><strong>示例 2:</strong></p>
+
+<pre>nums1 = [1, 2]
+nums2 = [3, 4]
+
+则中位数是 (2 + 3)/2 = 2.5
+</pre>
+
+
+### 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

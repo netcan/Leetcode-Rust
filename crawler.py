@@ -4,6 +4,7 @@
 import requests, os
 import requests_cache
 import re, threading
+import html
 import subprocess
 from requests.utils import requote_uri
 from collections import Counter
@@ -27,12 +28,16 @@ REPO_README_TEMPLATE = """
 """
 
 QUESTION_TEMPLATE = \
-"""### {question_name} {question_level}
-- 题目地址/Problem Url: [{question_url}]({question_url})
-- 执行时间/Runtime: {runtime} 
-- 内存消耗/Mem Usage: {mem_usage}
-- 通过日期/Accept Datetime: {time}
+"""## {question_name} {question_level}
+- 题目地址: [{question_url}]({question_url})
+- 执行时间: {runtime} 
+- 内存消耗: {mem_usage}
+- 通过日期: {time}
 
+### 题目内容
+{question_content}
+
+### 解法
 ```{lang}
 {code}
 ```
@@ -63,7 +68,7 @@ class Leetcode:
             # print("solved_list: ", requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json())
             return [{
                 "question_slug": v['stat']['question__title_slug'],
-                "question_id": v['stat']['question_id'],
+                "question_id": v['stat']['frontend_question_id'], # 用页面上显示的id
                 "question_title": v['stat']['question__title'],
                 "question_difficulty": v['difficulty']['level']
                 } for v in
@@ -72,10 +77,14 @@ class Leetcode:
             ]
 
     def get_submit_list(self, question_slug):
-        data = '{"operationName":"Submissions","variables":{"offset":0,"limit":0,"lastKey":null,"questionSlug":"%s"},"query":"query Submissions($offset: Int!, $limit: Int!, $lastKey: String, $questionSlug: String!) {\\n  submissionList(offset: $offset, limit: $limit, lastKey: $lastKey, questionSlug: $questionSlug) {\\n    lastKey\\n    hasNext\\n    submissions {\\n      id\\n      statusDisplay\\n      lang\\n      runtime\\n      timestamp\\n      url\\n      isPending\\n      memory\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n"}' % question_slug
-        return [item for item in
-            requests.post(Leetcode.LEETCODE_GRAPHQL, headers=self.headers, data=data).json()['data']['submissionList']['submissions']
-            if item['statusDisplay'].lower() == 'accepted']
+        with requests_cache.disabled():
+            data = '{"operationName":"Submissions","variables":{"offset":0,"limit":0,"lastKey":null,"questionSlug":"%s"},"query":"query Submissions($offset: Int!, $limit: Int!, $lastKey: String, $questionSlug: String!) {\\n  submissionList(offset: $offset, limit: $limit, lastKey: $lastKey, questionSlug: $questionSlug) {\\n    lastKey\\n    hasNext\\n    submissions {\\n      id\\n      statusDisplay\\n      lang\\n      runtime\\n      timestamp\\n      url\\n      isPending\\n      memory\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n"}' % question_slug
+            submit_list = [item for item in
+                           requests.post(Leetcode.LEETCODE_GRAPHQL,
+                                         headers=self.headers,
+                                         data=data).json()['data']['submissionList']['submissions']
+                           if item['statusDisplay'].lower() == 'accepted']
+            return submit_list
 
     def get_source(self, url): # /submissions/detail/14313499/
         req_url = self.LEETCODE_URL + url
@@ -84,6 +93,13 @@ class Leetcode:
             return src.encode('cp1252', 'backslashreplace').decode('unicode-escape')
         except AttributeError:
             pass
+
+    def get_question_content(self, question_slug): # /problems/number-of-enclaves/
+        data = '{"operationName":"questionData","variables":{"titleSlug":"%s"},"query":"query questionData($titleSlug: String!) {\\n  question(titleSlug: $titleSlug) {\\n    questionId\\n    questionFrontendId\\n    boundTopicId\\n    title\\n    titleSlug\\n    content\\n    translatedTitle\\n    translatedContent\\n    isPaidOnly\\n    difficulty\\n    likes\\n    dislikes\\n    isLiked\\n    similarQuestions\\n    contributors {\\n      username\\n      profileUrl\\n      avatarUrl\\n      __typename\\n    }\\n    langToValidPlayground\\n    topicTags {\\n      name\\n      slug\\n      translatedName\\n      __typename\\n    }\\n    companyTagStats\\n    codeSnippets {\\n      lang\\n      langSlug\\n      code\\n      __typename\\n    }\\n    stats\\n    hints\\n    solution {\\n      id\\n      canSeeDetail\\n      __typename\\n    }\\n    status\\n    sampleTestCase\\n    metaData\\n    judgerAvailable\\n    judgeType\\n    mysqlSchemas\\n    enableRunCode\\n    enableTestMode\\n    envInfo\\n    __typename\\n  }\\n}\\n"}' % question_slug
+        question_content = requests.post(self.LEETCODE_GRAPHQL,
+                                         headers=self.headers,
+                                         data=data).json()['data']['question']
+        return question_content
 
     def output_source(self, lang='rust', lang_suffix='rs', max_threads=8):
         solved_list = self.get_solved_list()
@@ -99,6 +115,7 @@ class Leetcode:
                         src = self.get_source(submit['url'])
                         if not src: continue
 
+                        question_content = self.get_question_content(question_["question_slug"])
                         src = CODE_TEMPLATE.format(code=src)
                         dir_name = "n{:04d}. {}".format(question_["question_id"], question_["question_title"])
                         if not os.path.exists(dir_name):
@@ -114,7 +131,9 @@ class Leetcode:
                                                              mem_usage = submit["memory"],
                                                              time = datetime.fromtimestamp(int(submit["timestamp"])).strftime("%Y-%m-%d %H:%M"),
                                                              lang = lang,
+                                                             question_content=html.unescape(question_content['translatedContent']).replace('<p>\xa0</p>', ''),
                                                              code = src))
+                        break # 只取最新的(第一条就是)
 
             while len(threads) >= max_threads:
                 for thread in threads:

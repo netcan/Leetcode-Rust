@@ -1,25 +1,30 @@
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan
 
-use std::cmp::Ordering;
 impl Solution {
     pub fn max_envelopes(mut envelopes: Vec<Vec<i32>>) -> i32 {
+        // 按宽度升序排，高度降序排，然后对高度求LIS
         if envelopes.len() <= 0 { return 0; }
-        envelopes.sort();
+        envelopes.sort_by(|a, b| {
+            if a[0] != b[0] { return a[0].cmp(&b[0]); }
+            return b[1].cmp(&a[1]);
+        });
 
-        println!("{:?}", envelopes);
-        let mut dp = vec![1; envelopes.len()]; // 以envelopes[i]为结尾的最大数量
-
-        for i in 0..envelopes.len() {
-            for j in i+1..envelopes.len() {
-                if envelopes[i][0] < envelopes[j][0] && 
-                    envelopes[i][1] < envelopes[j][1] {
-                        dp[j] = dp[j].max(dp[i] + 1);
+        let mut longest = Vec::with_capacity(envelopes.len());
+        for envelope in envelopes {
+            match longest.binary_search(&envelope[1]) {
+                Err(pos) => {
+                    if pos < longest.len() {
+                        longest[pos] = envelope[1];
+                    }  else  {
+                        longest.push(envelope[1]);
                     }
+                },
+                _ => {}
             }
         }
 
-        *dp.iter().max().unwrap()
+        longest.len() as i32
     }
 }
 

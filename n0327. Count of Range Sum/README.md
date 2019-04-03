@@ -1,9 +1,25 @@
-### Count of Range Sum :star::star::star:
-- 题目地址/Problem Url: [https://leetcode-cn.com/problems/count-of-range-sum](https://leetcode-cn.com/problems/count-of-range-sum)
-- 执行时间/Runtime: 8 ms 
-- 内存消耗/Mem Usage: 3 MB
-- 通过日期/Accept Datetime: 2019-03-16 14:22
+## Count of Range Sum :star::star::star:
+- 题目地址: [https://leetcode-cn.com/problems/count-of-range-sum](https://leetcode-cn.com/problems/count-of-range-sum)
+- 执行时间: 8 ms 
+- 内存消耗: 3 MB
+- 通过日期: 2019-03-16 14:22
 
+### 题目内容
+<p>给定一个整数数组 <code>nums</code>，返回区间和在 <code>[lower, upper]</code> 之间的个数，包含 <code>lower</code> 和 <code>upper</code>。<br>
+区间和 <code>S(i, j)</code> 表示在 <code>nums</code> 中，位置从 <code>i</code> 到 <code>j</code> 的元素之和，包含 <code>i</code> 和 <code>j</code> (<code>i</code> ≤ <code>j</code>)。</p>
+
+<p><strong>说明:</strong><br>
+最直观的算法复杂度是 <em>O</em>(<em>n</em><sup>2</sup>) ，请在此基础上优化你的算法。</p>
+
+<p><strong>示例:</strong></p>
+
+<pre><strong>输入: </strong><em>nums</em> = <code>[-2,5,-1]</code>, <em>lower</em> = <code>-2</code>, <em>upper</em> = <code>2</code>,
+<strong>输出: </strong>3 
+<strong>解释: </strong>3个区间分别是: <code>[0,0]</code>, <code>[2,2]</code>, <code>[0,2]，</code>它们表示的和分别为: <code>-2, -1, 2。</code>
+</pre>
+
+
+### 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

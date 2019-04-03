@@ -1,9 +1,25 @@
-### Count of Smaller Numbers After Self :star::star::star:
-- 题目地址/Problem Url: [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self)
-- 执行时间/Runtime: 8 ms 
-- 内存消耗/Mem Usage: 4 MB
-- 通过日期/Accept Datetime: 2019-03-16 12:46
+## Count of Smaller Numbers After Self :star::star::star:
+- 题目地址: [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self)
+- 执行时间: 8 ms 
+- 内存消耗: 4 MB
+- 通过日期: 2019-03-16 12:46
 
+### 题目内容
+<p>给定一个整数数组 <em>nums</em>，按要求返回一个新数组 <em>counts</em>。数组 <em>counts</em> 有该性质： <code>counts[i]</code> 的值是  <code>nums[i]</code> 右侧小于 <code>nums[i]</code> 的元素的数量。</p>
+
+<p><strong>示例:</strong></p>
+
+<pre><strong>输入:</strong> [5,2,6,1]
+<strong>输出:</strong> <code>[2,1,1,0] 
+<strong>解释:</strong></code>
+5 的右侧有 <strong>2 </strong>个更小的元素 (2 和 1).
+2 的右侧仅有 <strong>1 </strong>个更小的元素 (1).
+6 的右侧有 <strong>1 </strong>个更小的元素 (1).
+1 的右侧有 <strong>0 </strong>个更小的元素.
+</pre>
+
+
+### 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

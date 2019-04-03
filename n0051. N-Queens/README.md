@@ -1,9 +1,39 @@
-### N-Queens :star::star::star:
-- 题目地址/Problem Url: [https://leetcode-cn.com/problems/n-queens](https://leetcode-cn.com/problems/n-queens)
-- 执行时间/Runtime: 8 ms 
-- 内存消耗/Mem Usage: 2.6 MB
-- 通过日期/Accept Datetime: 2019-03-10 12:57
+## N-Queens :star::star::star:
+- 题目地址: [https://leetcode-cn.com/problems/n-queens](https://leetcode-cn.com/problems/n-queens)
+- 执行时间: 8 ms 
+- 内存消耗: 2.6 MB
+- 通过日期: 2019-03-10 12:57
 
+### 题目内容
+<p><em>n </em>皇后问题研究的是如何将 <em>n</em> 个皇后放置在 <em>n</em>×<em>n</em> 的棋盘上，并且使皇后彼此之间不能相互攻击。</p>
+
+<p><img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png"></p>
+
+<p><small>上图为 8 皇后问题的一种解法。</small></p>
+
+<p>给定一个整数 <em>n</em>，返回所有不同的 <em>n </em>皇后问题的解决方案。</p>
+
+<p>每一种解法包含一个明确的 <em>n</em> 皇后问题的棋子放置方案，该方案中 <code>'Q'</code> 和 <code>'.'</code> 分别代表了皇后和空位。</p>
+
+<p><strong>示例:</strong></p>
+
+<pre><strong>输入:</strong> 4
+<strong>输出:</strong> [
+ [".Q..",  // 解法 1
+  "...Q",
+  "Q...",
+  "..Q."],
+
+ ["..Q.",  // 解法 2
+  "Q...",
+  "...Q",
+  ".Q.."]
+]
+<strong>解释:</strong> 4 皇后问题存在两个不同的解法。
+</pre>
+
+
+### 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

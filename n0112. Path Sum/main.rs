@@ -14,11 +14,9 @@ impl Solution {
             Some(node) => {
                 let node = node.borrow();
                 let diff = sum - node.val;
-                if let None = node.left {
-                    if let None = node.right {
-                        if diff == 0 { return true; }
-                    }
-                }
+                if node.left.is_none() &&
+                    node.right.is_none() &&
+                        diff == 0 { return true; }
                 Solution::has_path_sum_(&node.left, diff) ||
                 Solution::has_path_sum_(&node.right, diff)
             },

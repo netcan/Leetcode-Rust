@@ -27,7 +27,8 @@ impl Solution {
             for sq in &square {
                 let next_num = sq + num;
                 if next_num > n { break; }
-                if !mark.contains_key(&next_num) {
+                // 根据4平方数定理，剪枝
+                if !mark.contains_key(&next_num) && step < 4 {
                     que.push_back((next_num, step + 1));
                     mark.insert(next_num, true);
                 }
@@ -37,3 +38,4 @@ impl Solution {
         0
     }
 }
+

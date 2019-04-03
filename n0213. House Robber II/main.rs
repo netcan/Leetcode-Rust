@@ -5,7 +5,7 @@ impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
         if nums.len() <= 2 { return *nums.iter().max().unwrap_or(&0); }
 
-        (0..nums.len()).map(|i| {
+        (0..=2).map(|i| {
             let mut vis = vec![-1; nums.len()]; // 记录偷过的最大价值？
             Solution::dfs(&nums, &mut vis, i, i)
         }).max().unwrap_or(0)
