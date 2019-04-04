@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-20 19:15
 
 ### 题目内容
+---
 <p>给定一个无序的整数数组，找到其中最长上升子序列的长度。</p>
 
 <p><strong>示例:</strong></p>
@@ -24,6 +25,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

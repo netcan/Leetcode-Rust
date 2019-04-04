@@ -5,6 +5,7 @@
 - 通过日期: 2019-04-02 19:28
 
 ### 题目内容
+---
 <p>给定一个二进制字符串 <code>S</code>（一个仅由若干 '0' 和 '1' 构成的字符串）和一个正整数 <code>N</code>，如果对于从 <code>1</code> 到 <code>N</code> 的每个整数 <code>X</code>，其二进制表示都是 <code>S</code> 的子串，就返回 <code>true</code>，否则返回 <code>false</code>。</p>
 
 
@@ -32,6 +33,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

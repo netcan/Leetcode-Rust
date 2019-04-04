@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-06 09:28
 
 ### 题目内容
+---
 <p><em>自除数 </em>是指可以被它包含的每一位数除尽的数。</p>
 
 <p>例如，128 是一个自除数，因为 <code>128 % 1 == 0</code>，<code>128 % 2 == 0</code>，<code>128 % 8 == 0</code>。</p>
@@ -29,6 +30,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

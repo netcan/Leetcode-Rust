@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-20 15:45
 
 ### 题目内容
+---
 <p>给定两个单词 <em>word1 </em>和 <em>word2</em>，找到使得 <em>word1 </em>和 <em>word2 </em>相同所需的最小步数，每步可以删除任意一个字符串中的一个字符。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -24,6 +25,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

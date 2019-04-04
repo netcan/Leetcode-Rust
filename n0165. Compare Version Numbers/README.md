@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-21 15:14
 
 ### 题目内容
+---
 <p>比较两个版本号 <em>version1 </em>和 <em>version2</em>。<br>
 如果 <code><em>version1 </em>> <em>version2</em></code> 返回 <code>1</code>，如果 <code><em>version1 </em>< <em>version2</em></code> 返回 <code>-1</code>， 除此之外返回 <code>0</code>。</p>
 
@@ -55,6 +56,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

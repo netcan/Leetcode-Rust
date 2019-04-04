@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-15 12:09
 
 ### 题目内容
+---
 <p>给定一个未经排序的整数数组，找到最长且<strong>连续</strong>的的递增序列。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -28,6 +29,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

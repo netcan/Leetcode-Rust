@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-10 00:38
 
 ### 题目内容
+---
 <p>给定一个二叉树，它的每个结点都存放着一个整数值。</p>
 
 <p>找出路径和等于给定数值的路径总数。</p>
@@ -34,6 +35,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

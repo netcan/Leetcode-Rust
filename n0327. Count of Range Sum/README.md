@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-16 14:22
 
 ### 题目内容
+---
 <p>给定一个整数数组 <code>nums</code>，返回区间和在 <code>[lower, upper]</code> 之间的个数，包含 <code>lower</code> 和 <code>upper</code>。<br>
 区间和 <code>S(i, j)</code> 表示在 <code>nums</code> 中，位置从 <code>i</code> 到 <code>j</code> 的元素之和，包含 <code>i</code> 和 <code>j</code> (<code>i</code> ≤ <code>j</code>)。</p>
 
@@ -20,6 +21,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

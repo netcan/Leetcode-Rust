@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-10 23:16
 
 ### 题目内容
+---
 <p>实现 <a href="https://www.cplusplus.com/reference/valarray/pow/" target="_blank">pow(<em>x</em>, <em>n</em>)</a> ，即计算 x 的 n 次幂函数。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -34,6 +35,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

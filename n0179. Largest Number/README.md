@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-19 19:42
 
 ### 题目内容
+---
 <p>给定一组非负整数，重新排列它们的顺序使之组成一个最大的整数。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -21,6 +22,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-11 15:21
 
 ### 题目内容
+---
 <p>给定一个由 <code>'1'</code>（陆地）和 <code>'0'</code>（水）组成的的二维网格，计算岛屿的数量。一个岛被水包围，并且它是通过水平方向或垂直方向上相邻的陆地连接而成的。你可以假设网格的四个边均被水包围。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -31,6 +32,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（100 个，其中简单31 个，中等46 个， 困难23 个）：
+目前已解决的题目（105 个，其中简单31 个，中等50 个， 困难24 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -43,6 +43,7 @@
 - [300. Longest Increasing Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0300.%20Longest%20Increasing%20Subsequence)
 - [312. Burst Balloons :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0312.%20Burst%20Balloons)
 - [315. Count of Smaller Numbers After Self :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0315.%20Count%20of%20Smaller%20Numbers%20After%20Self)
+- [322. Coin Change :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0322.%20Coin%20Change)
 - [327. Count of Range Sum :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0327.%20Count%20of%20Range%20Sum)
 - [334. Increasing Triplet Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0334.%20Increasing%20Triplet%20Subsequence)
 - [337. House Robber III :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0337.%20House%20Robber%20III)
@@ -60,6 +61,8 @@
 - [455. Assign Cookies :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0455.%20Assign%20Cookies)
 - [461. Hamming Distance :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0461.%20Hamming%20Distance)
 - [463. Island Perimeter :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0463.%20Island%20Perimeter)
+- [514. Freedom Trail :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0514.%20Freedom%20Trail)
+- [518. Coin Change 2 :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0518.%20Coin%20Change%202)
 - [539. Minimum Time Difference :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0539.%20Minimum%20Time%20Difference)
 - [563. Binary Tree Tilt :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0563.%20Binary%20Tree%20Tilt)
 - [583. Delete Operation for Two Strings :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0583.%20Delete%20Operation%20for%20Two%20Strings)
@@ -75,6 +78,7 @@
 - [699. Falling Squares :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0699.%20Falling%20Squares)
 - [728. Self Dividing Numbers :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0728.%20Self%20Dividing%20Numbers)
 - [744. Find Smallest Letter Greater Than Target :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target)
+- [787. Cheapest Flights Within K Stops :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0787.%20Cheapest%20Flights%20Within%20K%20Stops)
 - [792. Number of Matching Subsequences :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0792.%20Number%20of%20Matching%20Subsequences)
 - [836. Rectangle Overlap :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0836.%20Rectangle%20Overlap)
 - [861. Score After Flipping Matrix :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0861.%20Score%20After%20Flipping%20Matrix)
@@ -86,6 +90,7 @@
 - [977. Squares of a Sorted Array :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0977.%20Squares%20of%20a%20Sorted%20Array)
 - [980. Unique Paths III :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0980.%20Unique%20Paths%20III)
 - [982. Triples with Bitwise AND Equal To Zero :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0982.%20Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero)
+- [983. Minimum Cost For Tickets :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0983.%20Minimum%20Cost%20For%20Tickets)
 - [991. Broken Calculator :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0991.%20Broken%20Calculator)
 - [995. Minimum Number of K Consecutive Bit Flips :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0995.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips)
 - [1000. Minimum Cost to Merge Stones :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1000.%20Minimum%20Cost%20to%20Merge%20Stones)

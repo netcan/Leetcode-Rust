@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-17 09:56
 
 ### 题目内容
+---
 <p>判断一个 9x9 的数独是否有效。只需要<strong>根据以下规则</strong>，验证已经填入的数字是否有效即可。</p>
 
 <ol>
@@ -65,6 +66,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

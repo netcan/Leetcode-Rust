@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-09 23:13
 
 ### 题目内容
+---
 <p>给定一个二叉树，找到最长的路径，这个路径中的每个节点具有相同值。 这条路径可以经过也可以不经过根节点。</p>
 
 <p><strong>注意</strong>：两个节点之间的路径长度由它们之间的边数表示。</p>
@@ -49,6 +50,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

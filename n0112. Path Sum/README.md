@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-10 00:06
 
 ### 题目内容
+---
 <p>给定一个二叉树和一个目标和，判断该树中是否存在根节点到叶子节点的路径，这条路径上所有节点值相加等于目标和。</p>
 
 <p><strong>说明:</strong> 叶子节点是指没有子节点的节点。</p>
@@ -25,6 +26,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

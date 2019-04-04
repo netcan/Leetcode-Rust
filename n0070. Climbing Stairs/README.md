@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-05 19:27
 
 ### 题目内容
+---
 <p>假设你正在爬楼梯。需要 <em>n</em> 阶你才能到达楼顶。</p>
 
 <p>每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？</p>
@@ -31,6 +32,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

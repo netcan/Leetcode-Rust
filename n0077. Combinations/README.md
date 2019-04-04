@@ -5,6 +5,7 @@
 - 通过日期: 2019-02-18 16:39
 
 ### 题目内容
+---
 <p>给定两个整数 <em>n</em> 和 <em>k</em>，返回 1 ... <em>n </em>中所有可能的 <em>k</em> 个数的组合。</p>
 
 <p><strong>示例:</strong></p>
@@ -22,6 +23,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

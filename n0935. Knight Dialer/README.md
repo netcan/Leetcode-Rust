@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-06 18:27
 
 ### 题目内容
+---
 <p>国际象棋中的骑士可以按下图所示进行移动：</p>
 
 <p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/11/03/knight.png" style="height: 150px; width: 150px;"> .           <img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/11/03/keypad.png" style="height: 150px; width: 134px;"></p>
@@ -51,6 +52,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

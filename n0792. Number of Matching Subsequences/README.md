@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-15 11:17
 
 ### 题目内容
+---
 <p>给定字符串 <code>S</code> 和单词字典 <code>words</code>, 求 <code>words[i]</code> 中是 <code>S</code> 的子序列的单词个数。</p>
 
 <pre>
@@ -27,6 +28,7 @@ words = ["a", "bb", "acd", "ace"]
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-08 14:38
 
 ### 题目内容
+---
 <p>两个整数之间的<a href="https://baike.baidu.com/item/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB">汉明距离</a>指的是这两个数字对应二进制位不同的位置的数目。</p>
 
 <p>给出两个整数 <code>x</code> 和 <code>y</code>，计算它们之间的汉明距离。</p>
@@ -29,6 +30,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-18 11:35
 
 ### 题目内容
+---
 <p>给定一个由若干 <code>0</code> 和 <code>1</code> 组成的数组 <code>A</code>，我们最多可以将 <code>K</code> 个值从 0 变成 1 。</p>
 
 <p>返回仅包含 1 的最长（连续）子数组的长度。</p>
@@ -39,6 +40,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-17 16:16
 
 ### 题目内容
+---
 <p>在歌曲列表中，第 <code>i</code> 首歌曲的持续时间为 <code>time[i]</code> 秒。</p>
 
 <p>返回其总持续时间（以秒为单位）可被 <code>60</code> 整除的歌曲对的数量。形式上，我们希望索引的数字  <code>i < j</code> 且有 <code>(time[i] + time[j]) % 60 == 0</code>。</p>
@@ -39,6 +40,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

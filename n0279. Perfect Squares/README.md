@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-18 18:51
 
 ### 题目内容
+---
 <p>给定正整数 <em>n</em>，找到若干个完全平方数（比如 <code>1, 4, 9, 16, ...</code>）使得它们的和等于<em> n</em>。你需要让组成和的完全平方数的个数最少。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -21,6 +22,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

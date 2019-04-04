@@ -5,6 +5,7 @@
 - 通过日期: 2019-04-02 17:10
 
 ### 题目内容
+---
 <p>给定正整数数组 <code>A</code>，<code>A[i]</code> 表示第 <code>i</code> 个观光景点的评分，并且两个景点 <code>i</code> 和 <code>j</code> 之间的距离为 <code>j - i</code>。</p>
 
 <p>一对景点（<code>i < j</code>）组成的观光组合的得分为（<code>A[i] + A[j] + i - j</code>）：景点的评分之和<strong>减去</strong>它们两者之间的距离。</p>
@@ -31,6 +32,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

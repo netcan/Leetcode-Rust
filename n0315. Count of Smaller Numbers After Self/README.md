@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-16 12:46
 
 ### 题目内容
+---
 <p>给定一个整数数组 <em>nums</em>，按要求返回一个新数组 <em>counts</em>。数组 <em>counts</em> 有该性质： <code>counts[i]</code> 的值是  <code>nums[i]</code> 右侧小于 <code>nums[i]</code> 的元素的数量。</p>
 
 <p><strong>示例:</strong></p>
@@ -20,6 +21,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-17 16:56
 
 ### 题目内容
+---
 <p>给定两个大小为 m 和 n 的有序数组 <code>nums1</code> 和 <code>nums2</code>。</p>
 
 <p>请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。</p>
@@ -29,6 +30,7 @@ nums2 = [3, 4]
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

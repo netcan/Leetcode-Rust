@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-05 18:58
 
 ### 题目内容
+---
 <p>给定一个只包含小写字母的有序数组<code>letters</code> 和一个目标字母 <code>target</code>，寻找有序数组里面比目标字母大的最小字母。</p>
 
 <p>数组里字母的顺序是循环的。举个例子，如果目标字母<code>target = 'z'</code> 并且有序数组为 <code>letters = ['a', 'b']</code>，则答案返回 <code>'a'</code>。</p>
@@ -53,6 +54,7 @@ target = "k"
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

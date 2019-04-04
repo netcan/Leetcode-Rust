@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-20 20:03
 
 ### 题目内容
+---
 <p>给定一个未排序的数组，判断这个数组中是否存在长度为 3 的递增子序列。</p>
 
 <p>数学表达式如下:</p>
@@ -27,6 +28,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

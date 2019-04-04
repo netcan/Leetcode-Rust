@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-08 11:43
 
 ### 题目内容
+---
 <p>给定两个数组，编写一个函数来计算它们的交集。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -27,6 +28,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-21 12:17
 
 ### 题目内容
+---
 <p>给定一个未排序的整数数组，找到最长递增子序列的个数。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -27,6 +28,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

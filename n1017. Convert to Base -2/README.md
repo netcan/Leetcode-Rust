@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-31 12:48
 
 ### 题目内容
+---
 <p>给出数字 <code>N</code>，返回由若干 <code>"0"</code> 和 <code>"1"</code>组成的字符串，该字符串为 <code>N</code> 的<strong>负二进制（<code>base -2</code>）</strong>表示。</p>
 
 <p>除非字符串就是 <code>"0"</code>，否则返回的字符串中不能含有前导零。</p>
@@ -42,6 +43,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

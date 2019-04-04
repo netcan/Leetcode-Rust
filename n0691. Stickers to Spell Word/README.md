@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-20 12:11
 
 ### 题目内容
+---
 <p>我们给出了 N 种不同类型的贴纸。每个贴纸上都有一个小写的英文单词。</p>
 
 <p>你希望从自己的贴纸集合中裁剪单个字母并重新排列它们，从而拼写出给定的目标字符串 <code>target</code>。</p>
@@ -67,6 +68,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

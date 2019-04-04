@@ -35,13 +35,14 @@ QUESTION_TEMPLATE = \
 - 通过日期: {time}
 
 ### 题目内容
+---
 {question_content}
 
 ### 解法
+---
 ```{lang}
 {code}
-```
-"""
+```"""
 
 class Leetcode:
     LEETCODE_URL = 'https://leetcode-cn.com'
@@ -150,7 +151,9 @@ class Leetcode:
                 if not thread.is_alive():
                     threads.remove(thread)
 
-    def generate_readme(self):
+        self.__generate_readme()
+
+    def __generate_readme(self):
         pattern_name = re.compile('n(\d+)\. (.*)')
         question_level = {
             1: 0, 2: 0, 3: 0
@@ -186,7 +189,6 @@ if __name__ == '__main__':
     lc = Leetcode()
 
     lc.output_source()
-    lc.generate_readme()
 
     subprocess.run(["git", "add", "."])
     subprocess.run(["git", "commit", "-m", "commit by crawler.py @Netcan at {}".format(datetime.now().strftime("%Y-%m-%d %H:%M"))])

@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-08 17:55
 
 ### 题目内容
+---
 <p>给定一个二叉树，找出其最小深度。</p>
 
 <p>最小深度是从根节点到最近叶子节点的最短路径上的节点数量。</p>
@@ -25,6 +26,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

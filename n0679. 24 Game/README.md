@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-09 18:07
 
 ### 题目内容
+---
 <p>你有 4 张写有 1 到 9 数字的牌。你需要判断是否能通过 <code>*</code>，<code>/</code>，<code>+</code>，<code>-</code>，<code>(</code>，<code>)</code> 的运算得到 24。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -32,6 +33,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

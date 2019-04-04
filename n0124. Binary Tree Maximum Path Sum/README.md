@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-09 23:40
 
 ### 题目内容
+---
 <p>给定一个<strong>非空</strong>二叉树，返回其最大路径和。</p>
 
 <p>本题中，路径被定义为一条从树中任意节点出发，达到任意节点的序列。该路径<strong>至少包含一个</strong>节点，且不一定经过根节点。</p>
@@ -34,6 +35,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

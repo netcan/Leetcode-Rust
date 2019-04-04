@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-10 01:06
 
 ### 题目内容
+---
 <p>给定一个<strong>非空</strong>整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。</p>
 
 <p><strong>说明：</strong></p>
@@ -24,6 +25,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

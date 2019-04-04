@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-14 23:49
 
 ### 题目内容
+---
 <p>在<strong>二维</strong>平面上计算出两个<strong>由直线构成的</strong>矩形重叠后形成的总面积。</p>
 
 <p>每个矩形由其左下顶点和右上顶点坐标表示，如图所示。</p>
@@ -20,6 +21,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

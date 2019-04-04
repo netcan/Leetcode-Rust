@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-12 11:22
 
 ### 题目内容
+---
 <p>编写一个程序，通过已填充的空格来解决数独问题。</p>
 
 <p>一个数独的解法需<strong>遵循如下规则</strong>：</p>
@@ -35,6 +36,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

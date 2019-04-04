@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-07 15:06
 
 ### 题目内容
+---
 <p>给定一个正整数 <em>n</em>，将其拆分为<strong>至少</strong>两个正整数的和，并使这些整数的乘积最大化。 返回你可以获得的最大乘积。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -23,6 +24,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

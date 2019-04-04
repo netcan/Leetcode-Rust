@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-06 11:17
 
 ### 题目内容
+---
 <p>给定一个非负整数数组 <code>A</code>， A 中一半整数是奇数，一半整数是偶数。</p>
 
 <p>对数组进行排序，以便当 <code>A[i]</code> 为奇数时，<code>i</code> 也是奇数；当 <code>A[i]</code> 为偶数时， <code>i</code> 也是偶数。</p>
@@ -34,6 +35,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

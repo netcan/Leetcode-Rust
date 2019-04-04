@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-18 15:50
 
 ### 题目内容
+---
 <p>给你一个仅由大写英文字母组成的字符串，你可以将任意位置上的字符替换成另外的字符，总共可最多替换 <em>k </em>次。在执行上述操作后，找到包含重复字母的最长子串的长度。</p>
 
 <p><strong>注意:</strong><br>
@@ -37,6 +38,7 @@ s = "AABABBA", k = 1
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

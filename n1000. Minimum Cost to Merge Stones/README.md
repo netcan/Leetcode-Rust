@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-15 23:34
 
 ### 题目内容
+---
 <p>有 <code>N</code> 堆石头排成一排，第 <code>i</code> 堆中有 <code>stones[i]</code> 块石头。</p>
 
 <p>每次<em>移动（move）</em>需要将<strong>连续的</strong> <code>K</code> 堆石头合并为一堆，而这个移动的成本为这 <code>K</code> 堆石头的总数。</p>
@@ -55,6 +56,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

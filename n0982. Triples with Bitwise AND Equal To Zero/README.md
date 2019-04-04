@@ -5,6 +5,7 @@
 - 通过日期: 2019-03-15 17:52
 
 ### 题目内容
+---
 <p>给定一个整数数组 <code>A</code>，找出索引为 (i, j, k) 的三元组，使得：</p>
 
 <ul>
@@ -46,6 +47,7 @@
 
 
 ### 解法
+---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan
