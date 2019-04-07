@@ -1,10 +1,10 @@
-## Intersection of Two Arrays :star:
+# Intersection of Two Arrays :star:
 - 题目地址: [https://leetcode-cn.com/problems/intersection-of-two-arrays](https://leetcode-cn.com/problems/intersection-of-two-arrays)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-08 11:43
 
-### 题目内容
+## 题目内容
 ---
 <p>给定两个数组，编写一个函数来计算它们的交集。</p>
 
@@ -27,7 +27,7 @@
 </ul>
 
 
-### 解法
+## 解法
 ---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

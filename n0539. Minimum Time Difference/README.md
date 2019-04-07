@@ -1,11 +1,10 @@
-## Minimum Time Difference :star::star:
+# Minimum Time Difference :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/minimum-time-difference](https://leetcode-cn.com/problems/minimum-time-difference)
 - 执行时间: 4 ms 
 - 内存消耗: 3.4 MB
 - 通过日期: 2019-03-07 18:50
 
-### 题目内容
----
+## 题目内容
 <p>给定一个 24 小时制（小时:分钟）的时间列表，找出列表中任意两个时间的最小时间差并已分钟数表示。</p>
 
 <p><br />
@@ -25,8 +24,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

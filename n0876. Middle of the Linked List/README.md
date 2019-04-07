@@ -1,11 +1,10 @@
-## Middle of the Linked List :star:
+# Middle of the Linked List :star:
 - 题目地址: [https://leetcode-cn.com/problems/middle-of-the-linked-list](https://leetcode-cn.com/problems/middle-of-the-linked-list)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-11 18:34
 
-### 题目内容
----
+## 题目内容
 <p>给定一个带有头结点 <code>head</code> 的非空单链表，返回链表的中间结点。</p>
 
 <p>如果有两个中间结点，则返回第二个中间结点。</p>
@@ -37,8 +36,7 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next 
 </ul>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

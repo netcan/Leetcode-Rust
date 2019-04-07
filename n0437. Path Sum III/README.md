@@ -1,11 +1,10 @@
-## Path Sum III :star:
+# Path Sum III :star:
 - 题目地址: [https://leetcode-cn.com/problems/path-sum-iii](https://leetcode-cn.com/problems/path-sum-iii)
 - 执行时间: 20 ms 
 - 内存消耗: 2.8 MB
 - 通过日期: 2019-03-10 00:38
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树，它的每个结点都存放着一个整数值。</p>
 
 <p>找出路径和等于给定数值的路径总数。</p>
@@ -34,8 +33,7 @@
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -1,11 +1,10 @@
-## Find Median from Data Stream :star::star::star:
+# Find Median from Data Stream :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream)
 - 执行时间: 2056 ms 
 - 内存消耗: 9.5 MB
 - 通过日期: 2019-03-07 20:11
 
-### 题目内容
----
+## 题目内容
 <p>中位数是有序列表中间的数。如果列表长度是偶数，中位数则是中间两个数的平均值。</p>
 
 <p>例如，</p>
@@ -37,8 +36,7 @@ findMedian() -> 2</pre>
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

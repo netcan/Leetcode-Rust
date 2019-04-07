@@ -1,11 +1,10 @@
-## Smallest Integer Divisible by K :star::star:
+# Smallest Integer Divisible by K :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/smallest-integer-divisible-by-k](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k)
 - 执行时间: 32 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-04-02 18:37
 
-### 题目内容
----
+## 题目内容
 <p>给定正整数 <code>K</code>，你需要找出可以被 K 整除的、仅包含数字 <strong>1</strong> 的最小正整数 N。</p>
 
 <p>返回 <code>N</code> 的长度。如果不存在这样的 <code>N</code>，就返回 <code>-1</code>。</p>
@@ -39,8 +38,7 @@
 </ul>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

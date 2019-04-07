@@ -1,11 +1,10 @@
-## Longest Repeating Character Replacement :star::star:
+# Longest Repeating Character Replacement :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/longest-repeating-character-replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement)
 - 执行时间: 12 ms 
 - 内存消耗: 3.3 MB
 - 通过日期: 2019-03-18 15:50
 
-### 题目内容
----
+## 题目内容
 <p>给你一个仅由大写英文字母组成的字符串，你可以将任意位置上的字符替换成另外的字符，总共可最多替换 <em>k </em>次。在执行上述操作后，找到包含重复字母的最长子串的长度。</p>
 
 <p><strong>注意:</strong><br>
@@ -37,8 +36,7 @@ s = "AABABBA", k = 1
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

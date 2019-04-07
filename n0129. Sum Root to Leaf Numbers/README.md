@@ -1,11 +1,10 @@
-## Sum Root to Leaf Numbers :star::star:
+# Sum Root to Leaf Numbers :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/sum-root-to-leaf-numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-10 00:17
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树，它的每个结点都存放一个 <code>0-9</code> 的数字，每条从根到叶子节点的路径都代表一个数字。</p>
 
 <p>例如，从根到叶子节点路径 <code>1->2->3</code> 代表数字 <code>123</code>。</p>
@@ -42,8 +41,7 @@
 因此，数字总和 = 495 + 491 + 40 = <code>1026</code>.</pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

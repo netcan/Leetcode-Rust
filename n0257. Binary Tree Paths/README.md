@@ -1,11 +1,10 @@
-## Binary Tree Paths :star:
+# Binary Tree Paths :star:
 - 题目地址: [https://leetcode-cn.com/problems/binary-tree-paths](https://leetcode-cn.com/problems/binary-tree-paths)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-06 23:17
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树，返回所有从根节点到叶子节点的路径。</p>
 
 <p><strong>说明:</strong> 叶子节点是指没有子节点的节点。</p>
@@ -25,8 +24,7 @@
 <strong>解释:</strong> 所有根节点到叶子节点的路径为: 1->2->5, 1->3</pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

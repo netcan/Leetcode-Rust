@@ -1,11 +1,10 @@
-## Unique Paths III :star::star::star:
+# Unique Paths III :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/unique-paths-iii](https://leetcode-cn.com/problems/unique-paths-iii)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-19 20:38
 
-### 题目内容
----
+## 题目内容
 <p>在二维网格 <code>grid</code> 上，有 4 种类型的方格：</p>
 
 <ul>
@@ -55,8 +54,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

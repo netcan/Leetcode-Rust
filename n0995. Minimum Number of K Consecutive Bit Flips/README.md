@@ -1,11 +1,10 @@
-## Minimum Number of K Consecutive Bit Flips :star::star::star:
+# Minimum Number of K Consecutive Bit Flips :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips)
 - 执行时间: 20 ms 
 - 内存消耗: 3.5 MB
 - 通过日期: 2019-03-11 23:53
 
-### 题目内容
----
+## 题目内容
 <p>在仅包含 <code>0</code> 和 <code>1</code> 的数组 <code>A</code> 中，一次 <em><code>K</code> 位翻转</em>包括选择一个长度为 <code>K</code> 的（连续）子数组，同时将子数组中的每个 <code>0</code> 更改为 <code>1</code>，而每个 <code>1</code> 更改为 <code>0</code>。</p>
 
 <p>返回所需的 <code>K</code> 位翻转的次数，以便数组没有值为 <code>0</code> 的元素。如果不可能，返回 <code>-1</code>。</p>
@@ -46,8 +45,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

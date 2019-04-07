@@ -1,11 +1,10 @@
-## Letter Combinations of a Phone Number :star::star:
+# Letter Combinations of a Phone Number :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)
 - 执行时间: 0 ms 
 - 内存消耗: 745.5 KB
 - 通过日期: 2019-02-19 19:37
 
-### 题目内容
----
+## 题目内容
 <p>给定一个仅包含数字 <code>2-9</code> 的字符串，返回所有它能表示的字母组合。</p>
 
 <p>给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。</p>
@@ -22,8 +21,7 @@
 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -1,11 +1,10 @@
-## Cheapest Flights Within K Stops :star::star:
+# Cheapest Flights Within K Stops :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/cheapest-flights-within-k-stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)
 - 执行时间: 24 ms 
 - 内存消耗: 2.8 MB
 - 通过日期: 2019-04-04 21:20
 
-### 题目内容
----
+## 题目内容
 <p>有 <code>n</code> 个城市通过 <code>m</code> 个航班连接。每个航班都从城市 <code>u</code> 开始，以价格 <code>w</code> 抵达 <code>v</code>。</p>
 
 <p>现在给定所有的城市和航班，以及出发城市 <code>src</code> 和目的地 <code>dst</code>，你的任务是找到从 <code>src</code> 到 <code>dst</code> 最多经过 <code>k</code> 站中转的最便宜的价格。 如果没有这样的路线，则输出 <code>-1</code>。</p>
@@ -44,8 +43,7 @@ src = 0, dst = 2, k = 0
 </ul>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

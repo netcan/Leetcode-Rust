@@ -1,11 +1,10 @@
-## Freedom Trail :star::star::star:
+# Freedom Trail :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/freedom-trail](https://leetcode-cn.com/problems/freedom-trail)
 - 执行时间: 24 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-04-05 00:18
 
-### 题目内容
----
+## 题目内容
 <p>视频游戏“辐射4”中，任务“通向自由”要求玩家到达名为“Freedom Trail Ring”的金属表盘，并使用表盘拼写特定关键词才能开门。</p>
 
 <p>给定一个字符串 <strong>ring</strong>，表示刻在外环上的编码；给定另一个字符串 <strong>key</strong>，表示需要拼写的关键词。您需要算出能够拼写关键词中所有字符的<strong>最少</strong>步数。</p>
@@ -43,8 +42,7 @@
 	<li>字符串 <strong>key</strong> 一定可以由字符串 <strong>ring</strong> 旋转拼出。</li>
 </ol>
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

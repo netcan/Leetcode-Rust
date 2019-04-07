@@ -1,11 +1,10 @@
-## Path Sum :star:
+# Path Sum :star:
 - 题目地址: [https://leetcode-cn.com/problems/path-sum](https://leetcode-cn.com/problems/path-sum)
 - 执行时间: 4 ms 
 - 内存消耗: 3.1 MB
 - 通过日期: 2019-03-10 00:06
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树和一个目标和，判断该树中是否存在根节点到叶子节点的路径，这条路径上所有节点值相加等于目标和。</p>
 
 <p><strong>说明:</strong> 叶子节点是指没有子节点的节点。</p>
@@ -25,8 +24,7 @@
 <p>返回 <code>true</code>, 因为存在目标和为 22 的根节点到叶子节点的路径 <code>5->4->11->2</code>。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

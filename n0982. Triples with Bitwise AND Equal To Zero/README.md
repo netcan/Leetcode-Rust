@@ -1,11 +1,10 @@
-## Triples with Bitwise AND Equal To Zero :star::star::star:
+# Triples with Bitwise AND Equal To Zero :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero](https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero)
 - 执行时间: 144 ms 
 - 内存消耗: 3 MB
 - 通过日期: 2019-03-15 17:52
 
-### 题目内容
----
+## 题目内容
 <p>给定一个整数数组 <code>A</code>，找出索引为 (i, j, k) 的三元组，使得：</p>
 
 <ul>
@@ -46,8 +45,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

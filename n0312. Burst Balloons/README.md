@@ -1,11 +1,10 @@
-## Burst Balloons :star::star::star:
+# Burst Balloons :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/burst-balloons](https://leetcode-cn.com/problems/burst-balloons)
 - 执行时间: 4 ms 
 - 内存消耗: 2.6 MB
 - 通过日期: 2019-03-16 00:31
 
-### 题目内容
----
+## 题目内容
 <p>有 <code>n</code> 个气球，编号为<code>0</code> 到 <code>n-1</code>，每个气球上都标有一个数字，这些数字存在数组 <code>nums</code> 中。</p>
 
 <p>现在要求你戳破所有的气球。每当你戳破一个气球 <code>i</code> 时，你可以获得 <code>nums[left] * nums[i] * nums[right]</code> 个硬币。 这里的 <code>left</code> 和 <code>right</code> 代表和 <code>i</code> 相邻的两个气球的序号。注意当你戳破了气球 <code>i</code> 后，气球 <code>left</code> 和气球 <code>right</code> 就变成了相邻的气球。</p>
@@ -28,8 +27,7 @@
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

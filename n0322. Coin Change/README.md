@@ -1,11 +1,10 @@
-## Coin Change :star::star:
+# Coin Change :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/coin-change](https://leetcode-cn.com/problems/coin-change)
 - 执行时间: 12 ms 
 - 内存消耗: 3 MB
 - 通过日期: 2019-04-04 11:37
 
-### 题目内容
----
+## 题目内容
 <p>给定不同面额的硬币 coins 和一个总金额 amount。编写一个函数来计算可以凑成总金额所需的最少的硬币个数。如果没有任何一种硬币组合能组成总金额，返回 <code>-1</code>。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -23,8 +22,7 @@
 你可以认为每种硬币的数量是无限的。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

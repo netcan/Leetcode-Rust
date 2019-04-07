@@ -1,11 +1,10 @@
-## String Compression :star:
+# String Compression :star:
 - 题目地址: [https://leetcode-cn.com/problems/string-compression](https://leetcode-cn.com/problems/string-compression)
 - 执行时间: 8 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-06 16:03
 
-### 题目内容
----
+## 题目内容
 <p>给定一组字符，使用<a href="https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95">原地算法</a>将其压缩。</p>
 
 <p>压缩后的长度必须始终小于或等于原数组长度。</p>
@@ -69,8 +68,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

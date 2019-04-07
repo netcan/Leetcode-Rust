@@ -1,11 +1,10 @@
-## Largest Number :star::star:
+# Largest Number :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/largest-number](https://leetcode-cn.com/problems/largest-number)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-19 19:42
 
-### 题目内容
----
+## 题目内容
 <p>给定一组非负整数，重新排列它们的顺序使之组成一个最大的整数。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -21,8 +20,7 @@
 <p><strong>说明: </strong>输出结果可能非常大，所以你需要返回一个字符串而不是整数。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

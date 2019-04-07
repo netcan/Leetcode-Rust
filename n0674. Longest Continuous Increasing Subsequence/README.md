@@ -1,11 +1,10 @@
-## Longest Continuous Increasing Subsequence :star:
+# Longest Continuous Increasing Subsequence :star:
 - 题目地址: [https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence)
 - 执行时间: 0 ms 
 - 内存消耗: 2.7 MB
 - 通过日期: 2019-03-15 12:09
 
-### 题目内容
----
+## 题目内容
 <p>给定一个未经排序的整数数组，找到最长且<strong>连续</strong>的的递增序列。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -28,8 +27,7 @@
 <p><strong>注意：</strong>数组长度不会超过10000。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

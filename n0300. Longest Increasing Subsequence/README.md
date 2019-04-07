@@ -1,11 +1,10 @@
-## Longest Increasing Subsequence :star::star:
+# Longest Increasing Subsequence :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence)
 - 执行时间: 0 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-03-20 19:15
 
-### 题目内容
----
+## 题目内容
 <p>给定一个无序的整数数组，找到其中最长上升子序列的长度。</p>
 
 <p><strong>示例:</strong></p>
@@ -24,8 +23,7 @@
 <p><strong>进阶:</strong> 你能将算法的时间复杂度降低到 O(<em>n</em> log <em>n</em>) 吗?</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -1,11 +1,10 @@
-## Edit Distance :star::star::star:
+# Edit Distance :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/edit-distance](https://leetcode-cn.com/problems/edit-distance)
 - 执行时间: 8 ms 
 - 内存消耗: 3.4 MB
 - 通过日期: 2019-03-20 18:55
 
-### 题目内容
----
+## 题目内容
 <p>给定两个单词 <em>word1</em> 和 <em>word2</em>，计算出将 <em>word1</em> 转换成 <em>word2 </em>所使用的最少操作数 。</p>
 
 <p>你可以对一个单词进行如下三种操作：</p>
@@ -39,8 +38,7 @@ exection -> execution (插入 'u')
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

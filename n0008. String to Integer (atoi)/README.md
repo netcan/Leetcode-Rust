@@ -1,11 +1,10 @@
-## String to Integer (atoi) :star::star:
+# String to Integer (atoi) :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)
 - 执行时间: 4 ms 
 - 内存消耗: 671.7 KB
 - 通过日期: 2019-02-18 18:00
 
-### 题目内容
----
+## 题目内容
 <p>请你来实现一个 <code>atoi</code> 函数，使其能将字符串转换成整数。</p>
 
 <p>首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。</p>
@@ -59,8 +58,7 @@
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

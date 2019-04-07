@@ -1,11 +1,10 @@
-## Numbers At Most N Given Digit Set :star::star::star:
+# Numbers At Most N Given Digit Set :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/numbers-at-most-n-given-digit-set](https://leetcode-cn.com/problems/numbers-at-most-n-given-digit-set)
 - 执行时间: 0 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-03-22 15:37
 
-### 题目内容
----
+## 题目内容
 <p>我们有一组<strong>排序的</strong>数字 <code>D</code>，它是  <code>{'1','2','3','4','5','6','7','8','9'}</code> 的非空子集。（请注意，<code>'0'</code> 不包括在内。）</p>
 
 <p>现在，我们用这些数字进行组合写数字，想用多少次就用多少次。例如 <code>D = {'1','3','5'}</code>，我们可以写出像 <code>'13', '551', '1351315'</code> 这样的数字。</p>
@@ -43,8 +42,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

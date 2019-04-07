@@ -1,11 +1,10 @@
-## Sudoku Solver :star::star::star:
+# Sudoku Solver :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver)
 - 执行时间: 0 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-03-12 11:22
 
-### 题目内容
----
+## 题目内容
 <p>编写一个程序，通过已填充的空格来解决数独问题。</p>
 
 <p>一个数独的解法需<strong>遵循如下规则</strong>：</p>
@@ -35,8 +34,7 @@
 </ul>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

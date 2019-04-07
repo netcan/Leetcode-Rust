@@ -1,11 +1,10 @@
-## Number of Longest Increasing Subsequence :star::star:
+# Number of Longest Increasing Subsequence :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)
 - 执行时间: 24 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-21 12:17
 
-### 题目内容
----
+## 题目内容
 <p>给定一个未排序的整数数组，找到最长递增子序列的个数。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -27,8 +26,7 @@
 <p><strong>注意:</strong> 给定的数组长度不超过 2000 并且结果一定是32位有符号整数。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

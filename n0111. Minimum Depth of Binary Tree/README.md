@@ -1,11 +1,10 @@
-## Minimum Depth of Binary Tree :star:
+# Minimum Depth of Binary Tree :star:
 - 题目地址: [https://leetcode-cn.com/problems/minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)
 - 执行时间: 4 ms 
 - 内存消耗: 3.2 MB
 - 通过日期: 2019-03-08 17:55
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树，找出其最小深度。</p>
 
 <p>最小深度是从根节点到最近叶子节点的最短路径上的节点数量。</p>
@@ -25,8 +24,7 @@
 <p>返回它的最小深度  2.</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

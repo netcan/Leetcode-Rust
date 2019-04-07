@@ -1,11 +1,10 @@
-## Broken Calculator :star::star:
+# Broken Calculator :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/broken-calculator](https://leetcode-cn.com/problems/broken-calculator)
 - 执行时间: 0 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-03-15 09:31
 
-### 题目内容
----
+## 题目内容
 <p>在显示着数字的坏计算器上，我们可以执行以下两种操作：</p>
 
 <ul>
@@ -57,8 +56,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

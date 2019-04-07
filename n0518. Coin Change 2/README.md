@@ -1,11 +1,10 @@
-## Coin Change 2 :star::star:
+# Coin Change 2 :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/coin-change-2](https://leetcode-cn.com/problems/coin-change-2)
 - 执行时间: 12 ms 
 - 内存消耗: 8.4 MB
 - 通过日期: 2019-04-04 14:41
 
-### 题目内容
----
+## 题目内容
 <p>给定不同面额的硬币和一个总金额。写出函数来计算可以凑成总金额的硬币组合数。假设每一种面额的硬币有无限个。 </p>
 
 
@@ -51,8 +50,7 @@
 </ul>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

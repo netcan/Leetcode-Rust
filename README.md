@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（105 个，其中简单31 个，中等50 个， 困难24 个）：
+目前已解决的题目（106 个，其中简单31 个，中等51 个， 困难24 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -63,6 +63,7 @@
 - [463. Island Perimeter :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0463.%20Island%20Perimeter)
 - [514. Freedom Trail :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0514.%20Freedom%20Trail)
 - [518. Coin Change 2 :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0518.%20Coin%20Change%202)
+- [529. Minesweeper :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0529.%20Minesweeper)
 - [539. Minimum Time Difference :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0539.%20Minimum%20Time%20Difference)
 - [563. Binary Tree Tilt :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0563.%20Binary%20Tree%20Tilt)
 - [583. Delete Operation for Two Strings :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0583.%20Delete%20Operation%20for%20Two%20Strings)

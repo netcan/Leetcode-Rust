@@ -1,11 +1,10 @@
-## Squares of a Sorted Array :star:
+# Squares of a Sorted Array :star:
 - 题目地址: [https://leetcode-cn.com/problems/squares-of-a-sorted-array](https://leetcode-cn.com/problems/squares-of-a-sorted-array)
 - 执行时间: 16 ms 
 - 内存消耗: 3.1 MB
 - 通过日期: 2019-03-11 22:29
 
-### 题目内容
----
+## 题目内容
 <p>给定一个按非递减顺序排序的整数数组 <code>A</code>，返回每个数字的平方组成的新数组，要求也按非递减顺序排序。</p>
 
 
@@ -33,8 +32,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

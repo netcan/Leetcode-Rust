@@ -1,11 +1,10 @@
-## Guess Number Higher or Lower II :star::star:
+# Guess Number Higher or Lower II :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii)
 - 执行时间: 4 ms 
 - 内存消耗: 2.7 MB
 - 通过日期: 2019-03-17 15:54
 
-### 题目内容
----
+## 题目内容
 <p>我们正在玩一个猜数游戏，游戏规则如下：</p>
 
 <p>我从 <strong>1 </strong>到 <strong>n</strong> 之间选择一个数字，你来猜我选了哪个数字。</p>
@@ -30,8 +29,7 @@
 <p>给定 <strong>n ≥ 1，</strong>计算你至少需要拥有多少现金才能确保你能赢得这个游戏。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

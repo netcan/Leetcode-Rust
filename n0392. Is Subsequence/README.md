@@ -1,11 +1,10 @@
-## Is Subsequence :star::star:
+# Is Subsequence :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/is-subsequence](https://leetcode-cn.com/problems/is-subsequence)
 - 执行时间: 4 ms 
 - 内存消耗: 4.6 MB
 - 通过日期: 2019-03-15 10:02
 
-### 题目内容
----
+## 题目内容
 <p>给定字符串 <strong>s</strong> 和 <strong>t</strong> ，判断 <strong>s</strong> 是否为 <strong>t</strong> 的子序列。</p>
 
 <p>你可以认为 <strong>s</strong> 和 <strong>t</strong> 中仅包含英文小写字母。字符串 <strong>t</strong> 可能会很长（长度 ~= 500,000），而 <strong>s</strong> 是个短字符串（长度 <=100）。</p>
@@ -31,8 +30,7 @@
 <p>特别感谢<strong> </strong><a href="https://leetcode.com/pbrother/">@pbrother </a>添加此问题并且创建所有测试用例。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -1,11 +1,10 @@
-## Climbing Stairs :star:
+# Climbing Stairs :star:
 - 题目地址: [https://leetcode-cn.com/problems/climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs)
 - 执行时间: 0 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-03-05 19:27
 
-### 题目内容
----
+## 题目内容
 <p>假设你正在爬楼梯。需要 <em>n</em> 阶你才能到达楼顶。</p>
 
 <p>每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？</p>
@@ -31,8 +30,7 @@
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

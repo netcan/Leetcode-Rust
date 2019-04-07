@@ -1,11 +1,10 @@
-## Binary Tree Tilt :star:
+# Binary Tree Tilt :star:
 - 题目地址: [https://leetcode-cn.com/problems/binary-tree-tilt](https://leetcode-cn.com/problems/binary-tree-tilt)
 - 执行时间: 4 ms 
 - 内存消耗: 3.2 MB
 - 通过日期: 2019-03-11 11:54
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树，计算<strong>整个树</strong>的坡度。</p>
 
 <p>一个树的<strong>节点的坡度</strong>定义即为，该节点左子树的结点之和和右子树结点之和的<strong>差的绝对值</strong>。空结点的的坡度是0。</p>
@@ -35,8 +34,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

@@ -28,18 +28,16 @@ REPO_README_TEMPLATE = """
 """
 
 QUESTION_TEMPLATE = \
-"""## {question_name} {question_level}
+"""# {question_name} {question_level}
 - 题目地址: [{question_url}]({question_url})
 - 执行时间: {runtime} 
 - 内存消耗: {mem_usage}
 - 通过日期: {time}
 
-### 题目内容
----
+## 题目内容
 {question_content}
 
-### 解法
----
+## 解法
 ```{lang}
 {code}
 ```"""

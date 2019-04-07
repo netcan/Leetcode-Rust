@@ -1,11 +1,10 @@
-## Number of Enclaves :star::star:
+# Number of Enclaves :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/number-of-enclaves](https://leetcode-cn.com/problems/number-of-enclaves)
 - 执行时间: 16 ms 
 - 内存消耗: 3.4 MB
 - 通过日期: 2019-03-31 13:07
 
-### 题目内容
----
+## 题目内容
 <p>给出一个二维数组 <code>A</code>，每个单元格为 0（代表海）或 1（代表陆地）。</p>
 
 <p>移动是指在陆地上从一个地方走到另一个地方（朝四个方向之一）或离开网格的边界。</p>
@@ -40,8 +39,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

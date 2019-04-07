@@ -1,11 +1,10 @@
-## Capacity To Ship Packages Within D Days :star::star:
+# Capacity To Ship Packages Within D Days :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days)
 - 执行时间: 16 ms 
 - 内存消耗: 3.3 MB
 - 通过日期: 2019-03-17 16:26
 
-### 题目内容
----
+## 题目内容
 <p>传送带上的包裹必须在 D 天内从一个港口运送到另一个港口。</p>
 
 <p>传送带上的第 <code>i</code> 个包裹的重量为 <code>weights[i]</code>。每一天，我们都会按给出重量的顺序往传送带上装载包裹。我们装载的重量不会超过船的最大运载重量。</p>
@@ -61,8 +60,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

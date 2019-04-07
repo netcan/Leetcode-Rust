@@ -1,11 +1,10 @@
-## Convert a Number to Hexadecimal :star:
+# Convert a Number to Hexadecimal :star:
 - 题目地址: [https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)
 - 执行时间: 0 ms 
 - 内存消耗: 2.3 MB
 - 通过日期: 2019-03-06 09:52
 
-### 题目内容
----
+## 题目内容
 <p>给定一个整数，编写一个算法将这个数转换为十六进制数。对于负整数，我们通常使用 <a href="https://baike.baidu.com/item/%E8%A1%A5%E7%A0%81/6854613?fr=aladdin">补码运算</a> 方法。</p>
 
 <p><strong>注意:</strong></p>
@@ -38,8 +37,7 @@
 </pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

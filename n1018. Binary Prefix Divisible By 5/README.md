@@ -1,11 +1,10 @@
-## Binary Prefix Divisible By 5 :star:
+# Binary Prefix Divisible By 5 :star:
 - 题目地址: [https://leetcode-cn.com/problems/binary-prefix-divisible-by-5](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5)
 - 执行时间: 8 ms 
 - 内存消耗: 3.1 MB
 - 通过日期: 2019-03-31 12:44
 
-### 题目内容
----
+## 题目内容
 <p>给定由若干 <code>0</code> 和 <code>1</code> 组成的数组 <code>A</code>。我们定义 <code>N_i</code>：从 <code>A[0]</code> 到 <code>A[i]</code> 的第 <code>i</code> 个子数组被解释为一个二进制数（从最高有效位到最低有效位）。</p>
 
 <p>返回布尔值列表 <code>answer</code>，只有当 <code>N_i</code> 可以被 <code>5</code> 整除时，答案 <code>answer[i]</code> 为 <code>true</code>，否则为 <code>false</code>。</p>
@@ -48,8 +47,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

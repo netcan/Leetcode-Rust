@@ -1,11 +1,10 @@
-## Complement of Base 10 Integer :star:
+# Complement of Base 10 Integer :star:
 - 题目地址: [https://leetcode-cn.com/problems/complement-of-base-10-integer](https://leetcode-cn.com/problems/complement-of-base-10-integer)
 - 执行时间: 0 ms 
 - 内存消耗: 2.4 MB
 - 通过日期: 2019-03-17 16:04
 
-### 题目内容
----
+## 题目内容
 <p>每个非负整数 <code>N</code> 都有其二进制表示。例如， <code>5</code> 可以被表示为二进制 <code>"101"</code>，<code>11</code> 可以用二进制 <code>"1011"</code> 表示，依此类推。注意，除 <code>N = 0</code> 外，任何二进制表示中都不含前导零。</p>
 
 <p>二进制的反码表示是将每个 <code>1</code> 改为 <code>0</code> 且每个 <code>0</code> 变为 <code>1</code>。例如，二进制数 <code>"101"</code> 的二进制反码为 <code>"010"</code>。</p>
@@ -47,8 +46,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

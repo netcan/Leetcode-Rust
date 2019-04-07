@@ -1,10 +1,10 @@
-## Increasing Triplet Subsequence :star::star:
+# Increasing Triplet Subsequence :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/increasing-triplet-subsequence](https://leetcode-cn.com/problems/increasing-triplet-subsequence)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-20 20:03
 
-### 题目内容
+## 题目内容
 ---
 <p>给定一个未排序的数组，判断这个数组中是否存在长度为 3 的递增子序列。</p>
 
@@ -27,7 +27,7 @@
 <strong>输出: </strong>false</pre>
 
 
-### 解法
+## 解法
 ---
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust

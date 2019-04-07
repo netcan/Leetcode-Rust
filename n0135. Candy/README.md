@@ -1,11 +1,10 @@
-## Candy :star::star::star:
+# Candy :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/candy](https://leetcode-cn.com/problems/candy)
 - 执行时间: 16 ms 
 - 内存消耗: 3.5 MB
 - 通过日期: 2019-03-11 21:47
 
-### 题目内容
----
+## 题目内容
 <p>老师想给孩子们分发糖果，有 <em>N</em> 个孩子站成了一条直线，老师会根据每个孩子的表现，预先给他们评分。</p>
 
 <p>你需要按照以下要求，帮助老师给这些孩子分发糖果：</p>
@@ -32,8 +31,7 @@
      第三个孩子只得到 1 颗糖果，这已满足上述两个条件。</pre>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

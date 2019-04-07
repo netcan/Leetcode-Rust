@@ -1,11 +1,10 @@
-## Longest Univalue Path :star:
+# Longest Univalue Path :star:
 - 题目地址: [https://leetcode-cn.com/problems/longest-univalue-path](https://leetcode-cn.com/problems/longest-univalue-path)
 - 执行时间: 48 ms 
 - 内存消耗: 4.3 MB
 - 通过日期: 2019-03-09 23:13
 
-### 题目内容
----
+## 题目内容
 <p>给定一个二叉树，找到最长的路径，这个路径中的每个节点具有相同值。 这条路径可以经过也可以不经过根节点。</p>
 
 <p><strong>注意</strong>：两个节点之间的路径长度由它们之间的边数表示。</p>
@@ -49,8 +48,7 @@
 <p><strong>注意:</strong> 给定的二叉树不超过10000个结点。 树的高度不超过1000。</p>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

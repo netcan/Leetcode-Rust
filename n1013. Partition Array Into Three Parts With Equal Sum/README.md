@@ -1,11 +1,10 @@
-## Partition Array Into Three Parts With Equal Sum :star:
+# Partition Array Into Three Parts With Equal Sum :star:
 - 题目地址: [https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum)
 - 执行时间: 12 ms 
 - 内存消耗: 3.6 MB
 - 通过日期: 2019-04-02 16:10
 
-### 题目内容
----
+## 题目内容
 <p>给定一个整数数组 <code>A</code>，只有我们可以将其划分为三个和相等的非空部分时才返回 <code>true</code>，否则返回 <code>false</code>。</p>
 
 <p>形式上，如果我们可以找出索引 <code>i+1 < j</code> 且满足 <code>(A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1])</code> 就可以将数组三等分。</p>
@@ -42,8 +41,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

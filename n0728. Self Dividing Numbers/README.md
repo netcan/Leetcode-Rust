@@ -1,11 +1,10 @@
-## Self Dividing Numbers :star:
+# Self Dividing Numbers :star:
 - 题目地址: [https://leetcode-cn.com/problems/self-dividing-numbers](https://leetcode-cn.com/problems/self-dividing-numbers)
 - 执行时间: 0 ms 
 - 内存消耗: 2.5 MB
 - 通过日期: 2019-03-06 09:28
 
-### 题目内容
----
+## 题目内容
 <p><em>自除数 </em>是指可以被它包含的每一位数除尽的数。</p>
 
 <p>例如，128 是一个自除数，因为 <code>128 % 1 == 0</code>，<code>128 % 2 == 0</code>，<code>128 % 8 == 0</code>。</p>
@@ -29,8 +28,7 @@
 </ul>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

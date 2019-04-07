@@ -1,11 +1,10 @@
-## Next Greater Node In Linked List :star::star:
+# Next Greater Node In Linked List :star::star:
 - 题目地址: [https://leetcode-cn.com/problems/next-greater-node-in-linked-list](https://leetcode-cn.com/problems/next-greater-node-in-linked-list)
 - 执行时间: 72 ms 
 - 内存消耗: 2.9 MB
 - 通过日期: 2019-03-31 12:57
 
-### 题目内容
----
+## 题目内容
 <p>给出一个以头节点 <code>head</code> 作为第一个节点的链表。链表中的节点分别编号为：<code>node_1, node_2, node_3, ...</code> 。</p>
 
 <p>每个节点都可能有下一个更大值（<em>next larger</em> <strong>value</strong>）：对于 <code>node_i</code>，如果其 <code>next_larger(node_i)</code> 是 <code>node_j.val</code>，那么就有 <code>j > i</code> 且  <code>node_j.val > node_i.val</code>，而 <code>j</code> 是可能的选项中最小的那个。如果不存在这样的 <code>j</code>，那么下一个更大值为 <code>0</code> 。</p>
@@ -44,8 +43,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan

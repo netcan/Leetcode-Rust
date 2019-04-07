@@ -1,11 +1,10 @@
-## 24 Game :star::star::star:
+# 24 Game :star::star::star:
 - 题目地址: [https://leetcode-cn.com/problems/24-game](https://leetcode-cn.com/problems/24-game)
 - 执行时间: 4 ms 
 - 内存消耗: 2.3 MB
 - 通过日期: 2019-03-09 18:07
 
-### 题目内容
----
+## 题目内容
 <p>你有 4 张写有 1 到 9 数字的牌。你需要判断是否能通过 <code>*</code>，<code>/</code>，<code>+</code>，<code>-</code>，<code>(</code>，<code>)</code> 的运算得到 24。</p>
 
 <p><strong>示例 1:</strong></p>
@@ -32,8 +31,7 @@
 </ol>
 
 
-### 解法
----
+## 解法
 ```rust
 // Author: Netcan @ https://github.com/netcan/Leetcode-Rust
 // Zhihu: https://www.zhihu.com/people/netcan
