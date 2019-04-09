@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（106 个，其中简单31 个，中等51 个， 困难24 个）：
+目前已解决的题目（108 个，其中简单31 个，中等53 个， 困难24 个）：
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -22,6 +22,7 @@
 - [111. Minimum Depth of Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0111.%20Minimum%20Depth%20of%20Binary%20Tree)
 - [112. Path Sum :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0112.%20Path%20Sum)
 - [113. Path Sum II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0113.%20Path%20Sum%20II)
+- [114. Flatten Binary Tree to Linked List :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0114.%20Flatten%20Binary%20Tree%20to%20Linked%20List)
 - [124. Binary Tree Maximum Path Sum :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0124.%20Binary%20Tree%20Maximum%20Path%20Sum)
 - [129. Sum Root to Leaf Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0129.%20Sum%20Root%20to%20Leaf%20Numbers)
 - [135. Candy :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0135.%20Candy)
@@ -82,6 +83,7 @@
 - [787. Cheapest Flights Within K Stops :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0787.%20Cheapest%20Flights%20Within%20K%20Stops)
 - [792. Number of Matching Subsequences :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0792.%20Number%20of%20Matching%20Subsequences)
 - [836. Rectangle Overlap :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0836.%20Rectangle%20Overlap)
+- [851. Loud and Rich :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0851.%20Loud%20and%20Rich)
 - [861. Score After Flipping Matrix :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0861.%20Score%20After%20Flipping%20Matrix)
 - [876. Middle of the Linked List :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0876.%20Middle%20of%20the%20Linked%20List)
 - [877. Stone Game :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0877.%20Stone%20Game)
