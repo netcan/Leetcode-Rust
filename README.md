@@ -4,7 +4,8 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（109 个，其中简单31 个，中等54 个， 困难24 个）：
+目前已解决的题目（112 个，其中简单33 个，中等55 个， 困难24 个）：
+- [2. Add Two Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0002.%20Add%20Two%20Numbers)
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
 - [17. Letter Combinations of a Phone Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)
@@ -30,6 +31,8 @@
 - [144. Binary Tree Preorder Traversal :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0144.%20Binary%20Tree%20Preorder%20Traversal)
 - [145. Binary Tree Postorder Traversal :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0145.%20Binary%20Tree%20Postorder%20Traversal)
 - [165. Compare Version Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0165.%20Compare%20Version%20Numbers)
+- [168. Excel Sheet Column Title :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0168.%20Excel%20Sheet%20Column%20Title)
+- [171. Excel Sheet Column Number :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0171.%20Excel%20Sheet%20Column%20Number)
 - [179. Largest Number :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0179.%20Largest%20Number)
 - [198. House Robber :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0198.%20House%20Robber)
 - [200. Number of Islands :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0200.%20Number%20of%20Islands)
