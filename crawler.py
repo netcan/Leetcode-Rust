@@ -5,10 +5,11 @@ import requests, os
 import requests_cache
 import re, threading
 import html
-import subprocess
+import subprocess, time
 from requests.utils import requote_uri
 from collections import Counter
 from datetime import datetime
+from json.decoder import JSONDecodeError
 
 CODE_TEMPLATE = \
 """// Author: Netcan @ https://github.com/netcan/Leetcode-Rust
@@ -61,6 +62,7 @@ class Leetcode:
             "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36",
             "x-requested-with": "XMLHttpRequest",
             }
+        self.cached_solved_quest = {}
 
     def get_solved_list(self):
         with requests_cache.disabled():
@@ -101,14 +103,22 @@ class Leetcode:
         return question_content
 
     def output_source(self, lang='rust', lang_suffix='rs', max_threads=8):
+        self.get_cached_solved_ques()
         solved_list = self.get_solved_list()
         threads = []
         for idx, question in enumerate(solved_list):
             print("processing: {}. {} ({}/{})".format(question["question_id"],
                                                       question["question_title"],
                                                       idx + 1, len(solved_list)))
+            if question["question_title"] in self.cached_solved_quest:
+                print("cached: ", question["question_title"])
+                continue
+
             def process_submit_list(question_):
-                submit_list = self.get_submit_list(question_["question_slug"])
+                try:
+                    submit_list = self.get_submit_list(question_["question_slug"])
+                except JSONDecodeError:
+                    return
                 for submit in submit_list:
                     if submit["lang"] == lang:
                         src = self.get_source(submit['url'])
@@ -138,6 +148,7 @@ class Leetcode:
                 for thread in threads:
                     if not thread.is_alive():
                         threads.remove(thread)
+                time.sleep(0.5)
 
             thread = threading.Thread(target=process_submit_list, args=(question,), daemon=True)
             thread.start()
@@ -150,6 +161,13 @@ class Leetcode:
                     threads.remove(thread)
 
         self.__generate_readme()
+
+    def get_cached_solved_ques(self):
+        if not os.environ.get('CACHED_SOLVED_QUES'): return
+        pattern_name = re.compile('n(\d+)\. (.*)')
+        for dir_name in os.listdir('.'):
+            if not pattern_name.match(dir_name): continue
+            self.cached_solved_quest[pattern_name.search(dir_name).group(2)] = True
 
     def __generate_readme(self):
         pattern_name = re.compile('n(\d+)\. (.*)')

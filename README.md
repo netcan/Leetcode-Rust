@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（112 个，其中简单33 个，中等55 个， 困难24 个）：
+目前已解决的题目（115 个，其中简单33 个，中等58 个， 困难24 个）：
 - [2. Add Two Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0002.%20Add%20Two%20Numbers)
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
@@ -19,6 +19,7 @@
 - [71. Simplify Path :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0071.%20Simplify%20Path)
 - [72. Edit Distance :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0072.%20Edit%20Distance)
 - [77. Combinations :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0077.%20Combinations)
+- [93. Restore IP Addresses :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0093.%20Restore%20IP%20Addresses)
 - [94. Binary Tree Inorder Traversal :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0094.%20Binary%20Tree%20Inorder%20Traversal)
 - [111. Minimum Depth of Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0111.%20Minimum%20Depth%20of%20Binary%20Tree)
 - [112. Path Sum :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0112.%20Path%20Sum)
@@ -83,11 +84,13 @@
 - [695. Max Area of Island :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0695.%20Max%20Area%20of%20Island)
 - [699. Falling Squares :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0699.%20Falling%20Squares)
 - [728. Self Dividing Numbers :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0728.%20Self%20Dividing%20Numbers)
+- [740. Delete and Earn :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0740.%20Delete%20and%20Earn)
 - [744. Find Smallest Letter Greater Than Target :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target)
 - [787. Cheapest Flights Within K Stops :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0787.%20Cheapest%20Flights%20Within%20K%20Stops)
 - [792. Number of Matching Subsequences :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0792.%20Number%20of%20Matching%20Subsequences)
 - [836. Rectangle Overlap :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0836.%20Rectangle%20Overlap)
 - [851. Loud and Rich :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0851.%20Loud%20and%20Rich)
+- [856. Score of Parentheses :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0856.%20Score%20of%20Parentheses)
 - [861. Score After Flipping Matrix :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0861.%20Score%20After%20Flipping%20Matrix)
 - [876. Middle of the Linked List :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0876.%20Middle%20of%20the%20Linked%20List)
 - [877. Stone Game :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0877.%20Stone%20Game)
