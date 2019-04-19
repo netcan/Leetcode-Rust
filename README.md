@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（115 个，其中简单33 个，中等58 个， 困难24 个）：
+目前已解决的题目（123 个，其中简单36 个，中等62 个， 困难25 个）：
 - [2. Add Two Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0002.%20Add%20Two%20Numbers)
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
@@ -120,3 +120,11 @@
 - [1018. Binary Prefix Divisible By 5 :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1018.%20Binary%20Prefix%20Divisible%20By%205)
 - [1019. Next Greater Node In Linked List :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1019.%20Next%20Greater%20Node%20In%20Linked%20List)
 - [1020. Number of Enclaves :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1020.%20Number%20of%20Enclaves)
+- [1021. Remove Outermost Parentheses :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1021.%20Remove%20Outermost%20Parentheses)
+- [1022. Sum of Root To Leaf Binary Numbers :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers)
+- [1023. Camelcase Matching :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1023.%20Camelcase%20Matching)
+- [1024. Video Stitching :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1024.%20Video%20Stitching)
+- [1025. Divisor Game :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1025.%20Divisor%20Game)
+- [1026. Maximum Difference Between Node and Ancestor :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor)
+- [1027. Longest Arithmetic Sequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1027.%20Longest%20Arithmetic%20Sequence)
+- [1028. Recover a Tree From Preorder Traversal :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1028.%20Recover%20a%20Tree%20From%20Preorder%20Traversal)
