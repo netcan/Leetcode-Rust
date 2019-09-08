@@ -4,7 +4,7 @@
 
 本项目由`crawler.py`生成，代码自动爬取Leetcode-cn.com网站获取个人提交记录。使用方法：登陆Leetcode后记录cookie，设置环境变量`LEETCODE_COOKIE`，然后执行本脚本就能抓取指定语言的个人提交记录。
 
-目前已解决的题目（123 个，其中简单36 个，中等62 个， 困难25 个）：
+目前已解决的题目（129 个，其中简单39 个，中等64 个， 困难26 个）：
 - [2. Add Two Numbers :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0002.%20Add%20Two%20Numbers)
 - [4. Median of Two Sorted Arrays :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0004.%20Median%20of%20Two%20Sorted%20Arrays)
 - [8. String to Integer (atoi) :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0008.%20String%20to%20Integer%20(atoi))
@@ -42,6 +42,9 @@
 - [210. Course Schedule II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0210.%20Course%20Schedule%20II)
 - [213. House Robber II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0213.%20House%20Robber%20II)
 - [223. Rectangle Area :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0223.%20Rectangle%20Area)
+- [224. Basic Calculator :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0224.%20Basic%20Calculator)
+- [227. Basic Calculator II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0227.%20Basic%20Calculator%20II)
+- [241. Different Ways to Add Parentheses :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0241.%20Different%20Ways%20to%20Add%20Parentheses)
 - [257. Binary Tree Paths :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0257.%20Binary%20Tree%20Paths)
 - [279. Perfect Squares :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0279.%20Perfect%20Squares)
 - [295. Find Median from Data Stream :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0295.%20Find%20Median%20from%20Data%20Stream)
@@ -59,6 +62,7 @@
 - [375. Guess Number Higher or Lower II :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0375.%20Guess%20Number%20Higher%20or%20Lower%20II)
 - [383. Ransom Note :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0383.%20Ransom%20Note)
 - [392. Is Subsequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0392.%20Is%20Subsequence)
+- [401. Binary Watch :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0401.%20Binary%20Watch)
 - [405. Convert a Number to Hexadecimal :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0405.%20Convert%20a%20Number%20to%20Hexadecimal)
 - [424. Longest Repeating Character Replacement :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0424.%20Longest%20Repeating%20Character%20Replacement)
 - [437. Path Sum III :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0437.%20Path%20Sum%20III)
@@ -73,6 +77,7 @@
 - [539. Minimum Time Difference :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0539.%20Minimum%20Time%20Difference)
 - [563. Binary Tree Tilt :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0563.%20Binary%20Tree%20Tilt)
 - [583. Delete Operation for Two Strings :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0583.%20Delete%20Operation%20for%20Two%20Strings)
+- [606. Construct String from Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0606.%20Construct%20String%20from%20Binary%20Tree)
 - [630. Course Schedule III :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0630.%20Course%20Schedule%20III)
 - [661. Image Smoother :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0661.%20Image%20Smoother)
 - [671. Second Minimum Node In a Binary Tree :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n0671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
@@ -128,3 +133,4 @@
 - [1026. Maximum Difference Between Node and Ancestor :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor)
 - [1027. Longest Arithmetic Sequence :star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1027.%20Longest%20Arithmetic%20Sequence)
 - [1028. Recover a Tree From Preorder Traversal :star::star::star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1028.%20Recover%20a%20Tree%20From%20Preorder%20Traversal)
+- [1033. Moving Stones Until Consecutive :star:](https://github.com/netcan/Leetcode-Rust/tree/master/n1033.%20Moving%20Stones%20Until%20Consecutive)

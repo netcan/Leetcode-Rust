@@ -67,6 +67,7 @@ class Leetcode:
     def get_solved_list(self):
         with requests_cache.disabled():
             # print("solved_list: ", requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json())
+            # solv_list = requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json()
             return [{
                 "question_slug": v['stat']['question__title_slug'],
                 "question_id": v['stat']['frontend_question_id'], # 用页面上显示的id
@@ -125,6 +126,7 @@ class Leetcode:
                         if not src: continue
 
                         question_content = self.get_question_content(question_["question_slug"])
+                        if question_content['translatedContent'] is None: continue
                         src = CODE_TEMPLATE.format(code=src)
                         dir_name = "n{:04d}. {}".format(question_["question_id"], question_["question_title"])
                         if not os.path.exists(dir_name):
